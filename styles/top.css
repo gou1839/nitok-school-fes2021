@@ -44,6 +44,10 @@ svg {
 /*    z-index: 11;*/
 /*}*/
 
+/***************************/
+/* トップページ文字アニメーション */
+/***************************/
+
 .container {
     transform: translate(-50%, -50%);
     top: 50%;
@@ -69,82 +73,33 @@ h1 {
     float: left;
     left: 50%;
     position: relative;
+
+    animation: flux 10s linear infinite;
+    -moz-animation: flux 10s linear infinite;
+    -webkit-animation: flux 10s linear infinite;
+    -o-animation: flux 10s linear infinite;
 }
 .title span {
     transform: skew(-10deg);
     display: block;
     float: left;
-    text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px, #533d4a 5px 5px, #533d4a 6px 6px;
+    text-shadow: 0 0 4vw #e55643, 1px 1px #000, #000 2px 2px, #000 3px 3px, #000 4px 4px, #000 5px 5px, #000 6px 6px;
     min-width: 10px;
     min-height: 10px;
     position: relative;
 }
 
-.title:nth-child(1) {
-    color: #e55643;
-}
-.title:nth-child(2) {
-    color: #2b9f5e;
-}
-.title:nth-child(3) {
-    color: #f1c83c;
-}
 
-/*
-.title1 {
-    position: relative;
-    color: #ffffff;
-    background-color:  transparent;
-    font-size: 180px;
-    line-height: 2ex;
-    font-family: 'harryp';
-    top: 20%;
-    text-align: center;
-}
-
-.title2 {
-    position: relative;
-    color: #ffffff;
-    background-color:  transparent;
-}
-*/
-
-
-.engtitle {
-    position: relative;
-    color: #ffffff;
-    background-color:  transparent;
-    font-family: 'harryp';
-    font-size: 3px;
-}
-
-.btn {
-    position: fixed;
-    bottom: 5%;
-    right: 0px;
-    transform: translateX(-50%);
-    border: 1px solid #fff;
-    border-radius: 5px;
-    font-size: 0.9rem;
-    padding: 0.5rem 0.7em;
-    background-color: transparent;
-    color: #ffffff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    cursor: pointer;
-    transition: all .3s;
-    z-index: 11;
-}
-
-.btn_works {
-    left: 100px;
-    right: unset;
-    text-decoration: none;
-}
-
-.btn:hover {
-    background: #ffffff;
-    color: #1B1734;
+@keyframes flux {
+    0%,
+    100% {
+        text-shadow: 0 0 1vw #f1c83c, 0 0 3vw #f1c83c, 0 0 10vw #f1c83c, 0 0 10vw #f1c83c, 0 0 .4vw #f1c83c, .5vw .5vw .1vw #f1c83c;
+        color: #f1c83c;
+    }
+    50% {
+        text-shadow: 0 0 .5vw #f1c83c, 0 0 1.5vw #f1c83c, 0 0 5vw #f1c83c, 0 0 5vw #f1c83c, 0 0 .2vw #f1c83c, .5vw .5vw .1vw #f1c83c;
+        color: #e55643;
+    }
 }
 
 
