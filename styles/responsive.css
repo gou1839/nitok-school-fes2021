@@ -1,0 +1,40 @@
+@media screen and (max-width: 959px) {
+    /* 959px以下に適用されるCSS（タブレット用） */
+}
+
+@media screen and (max-width: 480px) {
+    /* 480px以下に適用されるCSS（スマホ用） */
+    .container {
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        display: block;
+        position: absolute;
+        max-width: 550px;
+    }
+
+    h1 {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 42px;
+        margin: 0;
+        line-height: 47px;
+        letter-spacing: 1px;
+    }
+
+    .title {
+        transform: translateX(-50%) rotate(-10deg);
+        display: block;
+        float: left;
+        left: 50%;
+        position: relative;
+    }
+    .title span {
+        transform: skew(-10deg);
+        display: block;
+        float: left;
+        min-width: 10px;
+        min-height: 10px;
+        position: relative;
+    }
+}

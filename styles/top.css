@@ -5,6 +5,11 @@ html{
     height: 100%;
 }
 
+@font-face {
+    font-family: harryp;
+    src: url(../assets/fonts/harryp.ttf) format('truetype');
+}
+
 svg {
     display: block;
     width: 100%;
@@ -12,6 +17,7 @@ svg {
     position: fixed;
     top: 0;
     left: 0;
+    filter: saturate(70%);
 }
 
 
@@ -38,14 +44,78 @@ svg {
 /*    z-index: 11;*/
 /*}*/
 
-.title {
+.container {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: block;
     position: absolute;
+    max-width: 550px;
+}
+
+h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 100px;
+    margin: 0;
+    line-height: 100px;
+    letter-spacing: 2px;
+    font-family: HarryP;
+}
+
+.title {
+    transform: translateX(-50%) rotate(-10deg);
+    display: block;
+    float: left;
+    left: 50%;
+    position: relative;
+}
+.title span {
+    transform: skew(-10deg);
+    display: block;
+    float: left;
+    text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px, #533d4a 5px 5px, #533d4a 6px 6px;
+    min-width: 10px;
+    min-height: 10px;
+    position: relative;
+}
+
+.title:nth-child(1) {
+    color: #e55643;
+}
+.title:nth-child(2) {
+    color: #2b9f5e;
+}
+.title:nth-child(3) {
+    color: #f1c83c;
+}
+
+/*
+.title1 {
+    position: relative;
+    color: #ffffff;
+    background-color:  transparent;
+    font-size: 180px;
+    line-height: 2ex;
+    font-family: 'harryp';
+    top: 20%;
+    text-align: center;
+}
+
+.title2 {
+    position: relative;
     color: #ffffff;
     background-color:  transparent;
 }
+*/
+
 
 .engtitle {
-
+    position: relative;
+    color: #ffffff;
+    background-color:  transparent;
+    font-family: 'harryp';
+    font-size: 3px;
 }
 
 .btn {

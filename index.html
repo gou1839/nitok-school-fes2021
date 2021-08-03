@@ -9,13 +9,16 @@
     <meta content="2021年度第16回沖縄高専祭公式ホームページ。">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Cache-Control" content="no-cache">
-    <link rel="stylesheet" href="assets/fontawesome-free-5.11.2-web/css/all.css">
+<!--    <link rel="stylesheet" href="assets/fontawesome-free-5.11.2-web/css/all.css">-->
     <link rel="stylesheet" href="styles/top.css">
+    <link rel="stylesheet" href="styles/responsive.css">
     <link rel="script" href="scripts/top.js">
-    <link rel="stylesheet" href="assets/css/styles.min.css?h=561cbd4e0cac15ab28983d9a63b1f996">
+    <link rel="script" href="scripts/title.js">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
 
 
     <!--OGP Setting-->
@@ -36,7 +39,7 @@
     <meta property="fb:app_id" content="752847515127619"/>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148981420-1"></script>
+    <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148981420-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -47,7 +50,7 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-148981420-1');
-    </script>
+    </script>-->
 </head>
 <body>
 <div class="Parallax">
@@ -74,12 +77,12 @@
                 <stop offset="0.98" stop-color="#c46976"/>
             </linearGradient>
             <linearGradient id="grad3" x1="467.26" y1="500" x2="467.26" y2="225.47" gradientUnits="userSpaceOnUse">
-                <stop offset="0.01" stop-color="#ffb8bd"/>
-                <stop offset="1" stop-color="#914d64"/>
+                <stop offset="0.01" stop-color="#433d6c"/>
+                <stop offset="1" stop-color="#392e54"/>
             </linearGradient>
             <linearGradient id="grad4" x1="216.56" y1="227.64" x2="191.14" y2="600.82"
                             gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#70375a"/>
+                <stop offset="0" stop-color="#433d6c"/>
                 <stop offset="0.96" stop-color="#8a6e95"/>
             </linearGradient>
             <linearGradient id="grad5" x1="1" y1="413.12" x2="340.58" y2="413.12" gradientUnits="userSpaceOnUse">
@@ -138,16 +141,16 @@
             <radialGradient id="fstar-grad" cx="1362.39" cy="-53.7" r="39.39"
                             gradientTransform="matrix(0.89, -0.45, -0.45, -0.89, -473.7, 640.57)"
                             gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#fff"/>
-                <stop offset="0.06" stop-color="#fff" stop-opacity="0.8"/>
-                <stop offset="0.12" stop-color="#fff" stop-opacity="0.62"/>
-                <stop offset="0.19" stop-color="#fff" stop-opacity="0.45"/>
-                <stop offset="0.26" stop-color="#fff" stop-opacity="0.31"/>
-                <stop offset="0.33" stop-color="#fff" stop-opacity="0.2"/>
-                <stop offset="0.41" stop-color="#fff" stop-opacity="0.11"/>
-                <stop offset="0.49" stop-color="#fff" stop-opacity="0.05"/>
-                <stop offset="0.59" stop-color="#fff" stop-opacity="0.01"/>
-                <stop offset="0.72" stop-color="#fff" stop-opacity="0"/>
+                <stop offset="0" stop-color="#d9d4e7"/>
+                <stop offset="0.06" stop-color="#d9d4e7" stop-opacity="0.8"/>
+                <stop offset="0.12" stop-color="#d9d4e7" stop-opacity="0.62"/>
+                <stop offset="0.19" stop-color="#d9d4e7" stop-opacity="0.45"/>
+                <stop offset="0.26" stop-color="#d9d4e7" stop-opacity="0.31"/>
+                <stop offset="0.33" stop-color="#d9d4e7" stop-opacity="0.2"/>
+                <stop offset="0.41" stop-color="#d9d4e7" stop-opacity="0.11"/>
+                <stop offset="0.49" stop-color="#d9d4e7" stop-opacity="0.05"/>
+                <stop offset="0.59" stop-color="#d9d4e7" stop-opacity="0.01"/>
+                <stop offset="0.72" stop-color="#d9d4e7" stop-opacity="0"/>
             </radialGradient>
             <linearGradient id="linear-gradient" x1="472" y1="461.56" x2="872.58" y2="461.56"
                             gradientUnits="userSpaceOnUse">
@@ -164,7 +167,7 @@
 
         <rect id="bg" width="750" height="500" opacity="0.8" fill="url(#bg_grad)"/>
 
-        <g id="clouds" fill="#fefefe">
+        <g id="clouds" fill="#d9d4e7">
             <path id="cloud4" transform='translate(600 0)'
                   d="M402.34,341.68c9.9-10.24,23.76-7.43,36.05-5.48C448,332,458.88,329,468.9,334c-.95-7.91,8.65-14.92,15.9-11.61-3.34-11.77,13-13.9,20.53-8.34A13.53,13.53,0,0,1,522,310.16c2.64-18.11,27.85-24.13,38.38-9.17,3.54-5.51,12.12-6.88,17.2-2.74,6.59-43.22,70.78-27.93,65.83,12.62,14.7-4.43,32,6.72,34.08,21.93,5.76-2.23,29.28,1,21.76,9.26"/>
 
@@ -382,12 +385,19 @@
 </div>
 <div class="scrollElement"></div>
 
-<h1 class="title">第16回沖縄高専祭</h1>
-<p class="engtitle">NitOk-SchoolFes</p>
+<!--<h1 class="title1">沖縄<span class="tate">高専</span><span class="circle">祭</span></h1>-->
+<section class="container">
+<h1>
+    <span class="title">ONCT</span>
+    <span class="title">School</span>
+    <span class="title">Festival</span>
+</h1>
+</section>
+<p class="engtitle">
+
+</p>
 <!--<button class="btn" id="fullscr">Go Fullscreen</button>-->
 <script type="text/javascript" src="scripts/top.js"></script>
-<script type="text/javascript">
-
-</script>
+<script type="text/javascript" src="scripts/title.js"></script>
 </body>
 </html>
