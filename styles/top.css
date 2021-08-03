@@ -1,12 +1,12 @@
 body,
-html{
+html {
     margin: 0;
     padding: 0;
     height: 100%;
 }
 
 @font-face {
-    font-family: harryp;
+    font-family: hp;
     src: url(../assets/fonts/harryp.ttf) format('truetype');
 }
 
@@ -28,20 +28,118 @@ svg {
     z-index: 0;
 }
 
-/*.toph1 {*/
-/*    position: fixed;*/
-/*    bottom: 5%;*/
-/*    right: 0px;*/
-/*    font-size: 30px;*/
-/*    padding: 0.5rem 0.7em;*/
-/*    background-color: transparent;*/
-/*    color: #ffffff;*/
-/*    font-family: Verdana, Geneva, Tahoma, sans-serif;*/
-/*    -webkit-font-smoothing: antialiased;*/
-/*    cursor: pointer;*/
-/*    transition: all .3s;*/
-/*    z-index: 11;*/
-/*}*/
+/*********/
+/* Menue */
+/*********/
+
+
+.menu-icon {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 10px 15px;
+    transform: scale(0.8);
+    padding: 0;
+    cursor: pointer;
+    z-index: 20
+}
+
+.menu-bar {
+    width: 50px;
+    height: 5px;
+    background: #000;
+    position: absolute;
+    transition: all 0.3s;
+}
+
+.menu-bar1 {
+    margin-top: 9px
+}
+
+.menu-bar2 {
+    margin-top: 23px
+}
+
+.menu-bar3 {
+    margin-top: 37px
+}
+
+.menu-icon.hover .menu-bar1 {
+    -webkit-transform: rotate(45deg) scaleX(0.7);
+    margin-top: 22px;
+}
+
+.menu-icon.hover .menu-bar2 {
+    opacity: 0
+}
+
+.menu-icon.hover .menu-bar3 {
+    -webkit-transform: rotate(-45deg) scaleX(0.7);
+    margin-top: 22px;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.menu-con {
+    -webkit-flex-grow: 1;
+    flex-basis: 0;
+    flex-grow: 1;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    position: relative;
+    top: -100%;
+    transition: all 0.5s
+}
+
+.menu-con p:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.menu-con:hover p:before {
+    background: rgba(0, 0, 0, 0.2)
+}
+
+.menu-con p {
+    height: 20px;
+    -webkit-align-self: center;
+    color: white;
+    font-size: 25px;
+    z-index: 2;
+    cursor: pointer
+}
+
+@media screen and (max-width: 600px) {
+    .menu-con {
+        min-width: 50%
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .menu-con {
+        min-width: 100%
+    }
+}
 
 /***************************/
 /* トップページ文字アニメーション */
@@ -63,7 +161,7 @@ h1 {
     margin: 0;
     line-height: 100px;
     letter-spacing: 2px;
-    font-family: harryp;
+    font-family: hp;
 }
 
 .title {
@@ -72,7 +170,6 @@ h1 {
     float: left;
     left: 50%;
     position: relative;
-
     animation: flux 10s linear infinite;
     -moz-animation: flux 10s linear infinite;
     -webkit-animation: flux 10s linear infinite;
@@ -101,8 +198,6 @@ h1 {
     }
 }
 
-
-
 .scrolldown span {
     position: absolute;
     top: 100%;
@@ -118,6 +213,7 @@ h1 {
     animation: sdb 2.5s infinite;
     box-sizing: border-box;
 }
+
 @-webkit-keyframes sdb {
     0% {
         -webkit-transform: rotate(-45deg) translate(0, 0);
@@ -131,6 +227,7 @@ h1 {
         opacity: 0;
     }
 }
+
 @keyframes sdb {
     0% {
         transform: rotate(-45deg) translate(0, 0);
