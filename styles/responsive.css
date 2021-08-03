@@ -10,4 +10,11 @@
         letter-spacing: 1px;
 
     }
+
+    .scrolldown span {
+        width: 24px;
+        height: 24px;
+        border-left: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+    }
 }

@@ -20,7 +20,6 @@ svg {
     filter: saturate(70%);
 }
 
-
 .scrollElement {
     position: absolute;
     height: 6000px;
@@ -48,7 +47,7 @@ svg {
 /* トップページ文字アニメーション */
 /***************************/
 
-.container {
+.top {
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
@@ -64,7 +63,7 @@ h1 {
     margin: 0;
     line-height: 100px;
     letter-spacing: 2px;
-    font-family: HarryP;
+    font-family: harryp;
 }
 
 .title {
@@ -79,6 +78,7 @@ h1 {
     -webkit-animation: flux 10s linear infinite;
     -o-animation: flux 10s linear infinite;
 }
+
 .title span {
     transform: skew(-10deg);
     display: block;
@@ -88,7 +88,6 @@ h1 {
     min-height: 10px;
     position: relative;
 }
-
 
 @keyframes flux {
     0%,
@@ -102,5 +101,61 @@ h1 {
     }
 }
 
+
+
+.scrolldown span {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 44px;
+    height: 44px;
+    margin-left: -12px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb 1.5s infinite;
+    animation: sdb 2.5s infinite;
+    box-sizing: border-box;
+}
+@-webkit-keyframes sdb {
+    0% {
+        -webkit-transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+@keyframes sdb {
+    0% {
+        transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+
+/***************/
+/* page1-dtail */
+/***************/
+
+.page1 {
+    transform: translate(-50%, -50%);
+    top: 150%;
+    left: 50%;
+    display: block;
+    position: absolute;
+    max-width: 550px;
+}
 
 
