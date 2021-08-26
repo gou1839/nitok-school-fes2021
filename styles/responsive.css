@@ -17,4 +17,8 @@
         border-left: 2px solid #fff;
         border-bottom: 2px solid #fff;
     }
+
+    .slideContsL.show {
+        transform: translate(10em, 0) !important;
+    }
 }

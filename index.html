@@ -12,12 +12,17 @@
     <!--    <link rel="stylesheet" href="assets/fontawesome-free-5.11.2-web/css/all.css">-->
     <link rel="stylesheet" href="styles/top.css">
     <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/button_anim.css">
+    <link rel="stylesheet" href="styles/slide.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
-
+    <script src="https://kit.fontawesome.com/201d0c2824.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
 
     <!--OGP Setting-->
     <meta property="og:url" content="https://kakao1839.github.io/I_am_kakao2/"/>
@@ -165,9 +170,10 @@
 
         <rect id="bg" width="750" height="500" opacity="0.8" fill="url(#bg_grad)"/>
 
-        <g id="clouds" fill="#172c66">
-            <path id="cloud4" transform='translate(900 300)' d="M84.71.137c-2.218.222-4.429.886-6.183 1.84-3.636 1.98-6.367 5.355-7.336 9.062-.5 1.922-.609 4.738-.293 7.543.07.648.122 1.191.114 1.191-.012.004-.18.082-.371.165-.88.402-1.364.812-2.16 1.84-.22.277-.47.581-.56.663l-.163.157-.801-.305c-2.426-.898-4.687-1.316-6.734-1.242-2.73.105-4.852.945-6.57 2.594-1.282 1.242-2.09 2.718-2.52 4.644-.113.531-.133.828-.14 2.05 0 .794-.005 1.434-.02 1.434-.004 0-.293-.039-.641-.09-1.914-.28-4.754-.308-6.164-.05-3.457.629-5.477 2.297-6.5 5.37-.39 1.173-.64 2.665-.91 5.45-.106 1.106-.106 1.129.02 1.637.074.285.25.855.394 1.27.14.417.289.917.316 1.117.051.328.043.375-.09.535-.078.097-.57.468-1.097.828-1.23.844-1.73 1.27-2.133 1.8-.41.547-.629 1.005-.746 1.56-.05.245-.121.519-.16.624-.133.348-.25 1.125-.25 1.656 0 .665.14 1.418.398 2.145.25.719.39.988.672 1.297l.227.258H32.05v7.46H19.957l-.277.594c-.77 1.664-1.418 3.942-1.723 6.067-.547 3.781-.176 7.441 1.125 10.976l.3.825h3.036c1.664 0 3.031.02 3.031.039 0 .02-.687 1.394-1.527 3.054l-1.52 3.012-5.77.02-5.765.02v9.066l3.492.019 3.493.016.226.652c1.094 3.258 3.57 5.738 6.75 6.773l.692.227h6.07l.57-.2c1.367-.484 2.352-1.105 3.36-2.109 1.257-1.27 2.132-2.882 2.59-4.754l.109-.464h1.293c.718 0 2.515.02 4 .047l2.699.039.2.586c.296.855.948 2.168 1.46 2.933 1.09 1.625 2.316 2.719 3.941 3.543l.766.379 4.02-.012 4.011-.02.692-.343c1.898-.945 3.37-2.46 4.34-4.48.34-.704.707-1.72.832-2.297l.086-.375h7.898l.184.496c.277.773 1.011 2.246 1.421 2.851 1.09 1.621 2.356 2.778 3.856 3.535.344.176.844.395 1.11.485l.472.16h6.691l.57-.2c3.18-1.124 5.438-3.667 6.38-7.198l.136-.512h7.934l.117.273c.063.149.2.492.3.754.255.668.9 1.922 1.313 2.574 1.297 2 3.102 3.48 5.059 4.149l.473.16h6.379l.5-.2c1.476-.585 2.62-1.413 3.77-2.726.878-1.004 1.816-2.703 2.335-4.234l.273-.817h16.079v-8.941h-14.52l-.332-11.332-.336-11.328.219-.48c.719-1.551 2.058-2.567 3.543-2.696l.476-.039-.039-.488c-.02-.27-.062-1.52-.101-2.774a97.416 97.416 0 00-.102-2.558l-.035-.27h-31.34v7.461l-10.84-.012-10.84-.02-.144-.452c-.797-2.45-2.66-4.09-5.16-4.54-.719-.128-2.348-.117-3.016.024-2.453.527-4.074 2.305-4.52 4.95l-.035.242h-1.07c-2.984-.004-16.824-.122-16.84-.141-.007-.012-.066-1.672-.129-3.684-.058-2.02-.128-3.687-.148-3.715-.027-.023-.383-.054-.793-.062l-.75-.02.48-.796c.852-1.422 2.094-3.164 3.286-4.637.675-.824 1.84-2.04 2.187-2.285l.262-.18 1.2.2c1.616.269 2.718.359 3.956.316 2.512-.09 4.465-.786 5.863-2.086.637-.598 1.047-1.149 1.508-2.063.211-.426.492-.87.668-1.054l.305-.336.7.078c.94.101 2.35.093 3.136-.02 1.68-.246 2.773-.726 4.101-1.8.36-.29.704-.56.774-.598.11-.059.234-.016.707.258.953.542 2.719 1.375 3.34 1.585a6.976 6.976 0 002.39.395c.871 0 1.547-.117 2.461-.418 1.23-.398 3.211-1.398 4.528-2.273 1.14-.758 2.148-1.754 2.808-2.778.672-1.047.813-1.242 1.063-1.453.14-.121.347-.23.46-.258.227-.039.489.09 1.481.758.727.484 1.29.742 2.156.98 1.262.348 2.024.45 3.344.45.906-.008 1.317-.031 1.906-.14 3.903-.727 7.141-3.54 8.723-7.579.281-.715.582-1.832.723-2.695.156-.907.156-2.739 0-3.602-.235-1.332-.805-2.754-1.524-3.812-.71-1.043-2.039-2.215-3.289-2.89-.441-.243-.45-.25-.539-.599-.07-.3-.07-.597.02-1.992.12-1.898.129-2.765.039-3.797-.348-3.859-2.012-6.687-5.188-8.816C94.61 1.609 91.141.39 88.207.129c-.848-.07-2.738-.07-3.496.008zm0 0"/>
-        </g>
+        <!-- <g id="clouds" fill="#172c66">
+             <path id="cloud4" transform='translate(900 300)'
+                   d="M84.71.137c-2.218.222-4.429.886-6.183 1.84-3.636 1.98-6.367 5.355-7.336 9.062-.5 1.922-.609 4.738-.293 7.543.07.648.122 1.191.114 1.191-.012.004-.18.082-.371.165-.88.402-1.364.812-2.16 1.84-.22.277-.47.581-.56.663l-.163.157-.801-.305c-2.426-.898-4.687-1.316-6.734-1.242-2.73.105-4.852.945-6.57 2.594-1.282 1.242-2.09 2.718-2.52 4.644-.113.531-.133.828-.14 2.05 0 .794-.005 1.434-.02 1.434-.004 0-.293-.039-.641-.09-1.914-.28-4.754-.308-6.164-.05-3.457.629-5.477 2.297-6.5 5.37-.39 1.173-.64 2.665-.91 5.45-.106 1.106-.106 1.129.02 1.637.074.285.25.855.394 1.27.14.417.289.917.316 1.117.051.328.043.375-.09.535-.078.097-.57.468-1.097.828-1.23.844-1.73 1.27-2.133 1.8-.41.547-.629 1.005-.746 1.56-.05.245-.121.519-.16.624-.133.348-.25 1.125-.25 1.656 0 .665.14 1.418.398 2.145.25.719.39.988.672 1.297l.227.258H32.05v7.46H19.957l-.277.594c-.77 1.664-1.418 3.942-1.723 6.067-.547 3.781-.176 7.441 1.125 10.976l.3.825h3.036c1.664 0 3.031.02 3.031.039 0 .02-.687 1.394-1.527 3.054l-1.52 3.012-5.77.02-5.765.02v9.066l3.492.019 3.493.016.226.652c1.094 3.258 3.57 5.738 6.75 6.773l.692.227h6.07l.57-.2c1.367-.484 2.352-1.105 3.36-2.109 1.257-1.27 2.132-2.882 2.59-4.754l.109-.464h1.293c.718 0 2.515.02 4 .047l2.699.039.2.586c.296.855.948 2.168 1.46 2.933 1.09 1.625 2.316 2.719 3.941 3.543l.766.379 4.02-.012 4.011-.02.692-.343c1.898-.945 3.37-2.46 4.34-4.48.34-.704.707-1.72.832-2.297l.086-.375h7.898l.184.496c.277.773 1.011 2.246 1.421 2.851 1.09 1.621 2.356 2.778 3.856 3.535.344.176.844.395 1.11.485l.472.16h6.691l.57-.2c3.18-1.124 5.438-3.667 6.38-7.198l.136-.512h7.934l.117.273c.063.149.2.492.3.754.255.668.9 1.922 1.313 2.574 1.297 2 3.102 3.48 5.059 4.149l.473.16h6.379l.5-.2c1.476-.585 2.62-1.413 3.77-2.726.878-1.004 1.816-2.703 2.335-4.234l.273-.817h16.079v-8.941h-14.52l-.332-11.332-.336-11.328.219-.48c.719-1.551 2.058-2.567 3.543-2.696l.476-.039-.039-.488c-.02-.27-.062-1.52-.101-2.774a97.416 97.416 0 00-.102-2.558l-.035-.27h-31.34v7.461l-10.84-.012-10.84-.02-.144-.452c-.797-2.45-2.66-4.09-5.16-4.54-.719-.128-2.348-.117-3.016.024-2.453.527-4.074 2.305-4.52 4.95l-.035.242h-1.07c-2.984-.004-16.824-.122-16.84-.141-.007-.012-.066-1.672-.129-3.684-.058-2.02-.128-3.687-.148-3.715-.027-.023-.383-.054-.793-.062l-.75-.02.48-.796c.852-1.422 2.094-3.164 3.286-4.637.675-.824 1.84-2.04 2.187-2.285l.262-.18 1.2.2c1.616.269 2.718.359 3.956.316 2.512-.09 4.465-.786 5.863-2.086.637-.598 1.047-1.149 1.508-2.063.211-.426.492-.87.668-1.054l.305-.336.7.078c.94.101 2.35.093 3.136-.02 1.68-.246 2.773-.726 4.101-1.8.36-.29.704-.56.774-.598.11-.059.234-.016.707.258.953.542 2.719 1.375 3.34 1.585a6.976 6.976 0 002.39.395c.871 0 1.547-.117 2.461-.418 1.23-.398 3.211-1.398 4.528-2.273 1.14-.758 2.148-1.754 2.808-2.778.672-1.047.813-1.242 1.063-1.453.14-.121.347-.23.46-.258.227-.039.489.09 1.481.758.727.484 1.29.742 2.156.98 1.262.348 2.024.45 3.344.45.906-.008 1.317-.031 1.906-.14 3.903-.727 7.141-3.54 8.723-7.579.281-.715.582-1.832.723-2.695.156-.907.156-2.739 0-3.602-.235-1.332-.805-2.754-1.524-3.812-.71-1.043-2.039-2.215-3.289-2.89-.441-.243-.45-.25-.539-.599-.07-.3-.07-.597.02-1.992.12-1.898.129-2.765.039-3.797-.348-3.859-2.012-6.687-5.188-8.816C94.61 1.609 91.141.39 88.207.129c-.848-.07-2.738-.07-3.496.008zm0 0"/>
+         </g>-->
 
 
         <!-- SCENE 2 -->
@@ -382,69 +388,64 @@
     <a class="scrolldown" href="#detail"><span></span></a>
 </section>
 
+<section class="theme">
+    <span class="string">冒険、</span> <br>
+    <span class="string">挑戦、</span> <br>
+    <span class="string">高専。</span> <br>
+    <span class="string">こん中にひよってるやついる？</span>
+</section>
 
-<div class="menu-icon" onclick="this.classList.toggle('hover');Drop(0)">
+
+<!--<div class="menu-icon" onclick="this.classList.toggle('hover');Drop(0)">
     <div class="menu-bar menu-bar1"></div>
     <div class="menu-bar menu-bar2"></div>
     <div class="menu-bar menu-bar3"></div>
     <p>Menue</p>
 </div>
+
 <div class="menu">
-    <a href="index.html" class="menu-con" style="background:IndianRed; background-image : url('./assets/img/gryf.png'); background-position: center; background-size: contain; background-repeat: no-repeat;"><p>HOME</p></a>
-    <a href="pages/event.html" class="menu-con" style="background:#faae2b ; background-image : url('./assets/img/huff.png'); background-position: center; background-size: contain; background-repeat: no-repeat;"><p>EVENT</p></a>
-    <a href="pages/yatai.html" class="menu-con" style="background:mediumseagreen; background-image : url('./assets/img/slyth.png'); background-position: center; background-size: contain; background-repeat: no-repeat;"><p>YATAI</p></a>
-    <a href="pages/sponsor.html" class="menu-con" style="background:teal; background-image : url('./assets/img/rav.png'); background-position: center; background-size: contain; background-repeat: no-repeat;"><p>SPONSOR</p></a>
-</div>
+    <a href="index.html" class="menu-con"
+       style="background:IndianRed; background-image : url('./assets/img/gryf.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
+        <p>HOME</p></a>
+    <a href="pages/event.html" class="menu-con"
+       style="background:#faae2b ; background-image : url('./assets/img/huff.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
+        <p>EVENT</p></a>
+    <a href="pages/yatai.html" class="menu-con"
+       style="background:mediumseagreen; background-image : url('./assets/img/slyth.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
+        <p>YATAI</p></a>
+    <a href="pages/sponsor.html" class="menu-con"
+       style="background:teal; background-image : url('./assets/img/rav.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
+        <p>SPONSOR</p></a>
+</div>-->
 
 <section class="page1" id="detail">
-<h2 class="detail">開催要項</h2>
-    <div class="columns">
-        <div class="column">
-            <div class="sidebar">
-                <ul>
-                    <li>
-                        <p class="subtitle narrow">day 1</p>
-                        <p class="main">2021/mm/dd <span class="jp">土曜日</span></p>
-                    </li>
-                    <li>
-                        <p class="subtitle narrow">day 2</p>
-                        <p class="main">2021/mm/dd <span class="jp">日曜日</span></p>
-                    </li>
-                    <li>
-                        <p class="subtitle">Time</p>
-                        <p class="main">9:00&ndash;15:30</p>
-                        <p class="sub">開場 9:00</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="columns">
-            <div class="sidebar">
-                <ul>
-                    <li>
-                        <p class="sub-title">THEME</p>
-                        <p class="main">Harry Potter</p>
-                    </li>
-                    <li>
-                        <p class="sub-title">SNS</p>
-                        <p class="sub">最新情報をチェック!</p>
-                        <div class="line">
-                            <a href="https://twitter.com/" target="_blank" rel="noopener" class="main">Twitter</a>
-                        </div>
-                        <div class="line">
-                            <a href="https://twitter.com/" target="_blank" rel="noopener" class="main">Instagram</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <div class="content1 slideContsL slideConts">
+        <h2 class="about">開催概要</h2>
+        <h2 class="wor"> 今年の高専祭は<span class="red">オンライン</span>開催です</h2>
+        <p class="detail">2021.10/DD <br>
+            HH:MM ~ HH:MM
+        </p>
     </div>
+    <button class="cybr-btn" onClick="location.href='http://google.com'">
+        Youtube Live <i class="fas fa-external-link-square-alt fa-xs"></i>
+        <span aria-hidden class="cybr-btn__glitch">Youtube Live <i class="fas fa-external-link-square-alt fa-xs"></i></span>
+        <span aria-hidden class="cybr-btn__tag">ON AIR</span>
+    </button>
+
+    <iframe class="slideContsR slideConts" width="840" height="472.5" src="https://www.youtube.com/embed/HpdO5Kq3o7Y?wmode=transparent&rel=0&modestbranding=0&showinfo=0&fs=0&controls=0" title="YouTube video player"
+            frameborder="0" wmode="Opaque"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
 </section>
 
+<section class="page2" id="slidetest">
+
+</section>
 <!--<button class="btn" id="fullscr">Go Fullscreen</button>-->
 <script type="text/javascript" src="scripts/background.js"></script>
 <script type="text/javascript" src="scripts/title.js"></script>
 <script type="text/javascript" src="scripts/menue.js"></script>
+<script type="text/javascript" src="scripts/slide.js"></script>
 </script>
 </body>
 </html>
