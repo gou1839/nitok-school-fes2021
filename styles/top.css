@@ -167,7 +167,7 @@ svg {
     max-width: 500px;
 }
 
-h1 {
+.top h1 {
     color: #fff;
     text-transform: uppercase;
     font-size: 100px;

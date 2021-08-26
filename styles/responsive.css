@@ -4,7 +4,7 @@
 
 @media screen and (max-width: 480px) {
     /* 480px以下に適用されるCSS（スマホ用） */
-    h1 {
+    .top h1 {
         font-size: 36px;
         line-height: 37px;
         letter-spacing: 1px;
