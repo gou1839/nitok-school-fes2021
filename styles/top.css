@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body,
 html {
     margin: 0;
@@ -11,20 +16,8 @@ html {
     font-family: hp;
     src: url(../assets/fonts/harryp.ttf) format('truetype');
 }
-@font-face {
-    font-family: Cyber;
-    src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
-    font-display: swap;
-}
-@font-face {
-    font-family: notosansjp-bold;
-    src: url(../assets/fonts/NotoSansJP-Bold.otf);
-}
 
-@font-face {
-    font-family: notosansjp-Medium;
-    src: url(../assets/fonts/NotoSansJP-Medium.otf);
-}
+
 
 svg {
     display: block;
@@ -267,30 +260,29 @@ h1 {
 /*    Theme    */
 /***************/
 .theme {
-    transform: translate(-50%, -50%);
-    top: 70%;
-    left: 32%;
+    transform: translate(1%, 132%);
+    top: 77%;
+    left: 135%;
     /*display: block;*/
-    position: absolute;
     z-index: auto;
     text-transform: uppercase;
+    white-space: nowrap;
     color: white;
     background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 550%;
+    font-size: 570%;
     font-family: Noto Sans JP;
-    line-height : 110%;
+    font-weight: bold;
+    line-height : 105%;
 }
 
 /***************/
 /* page1-dtail */
 /***************/
-
 .page1 {
-    transform: translate(-50%, -50%);
     top: 150%;
-    left: 30%;
+    left: 15%;
     /*display: block;*/
     position: absolute;
     max-width: 550px;
@@ -300,11 +292,12 @@ h1 {
 .content1 {
     width: 150%;
     height: 100%;
-    padding:8% 3% 8% 8%; /* 枠と文字の空間 */
+    padding:8% 4% 11% 9%; /* 枠と文字の空間 */
     color: white;
     margin-top: 0;
     font-family: Noto Sans JP;
     z-index: 10;
+    background-color: #4D4D4D;
 }
 
 .about {
@@ -312,19 +305,19 @@ h1 {
     font-family: hp;
     color: #999999;
     margin-bottom: 0px;
-    line-height : 150%;
     font-family: Noto Sans JP;
 
 }
 
 .wor {
     margin-top: 0px;
-    line-height : 0%;
+    line-height : 100%;
     font-family: Noto Sans JP;
 }
 
 .red {
     font-family: Noto Sans JP;
+    line-height : 100%;
     color: #E8AA99;
 }
 
@@ -335,18 +328,27 @@ h1 {
 }
 
 
-iframe {
+.youtube {
     position: absolute;
+    width: 840px;
+    height: 472.5px;
     top: 89%;
     left: 97%;
     z-index: 20;
-    border: solid;
-    border-color: #BD0F0F;
-    box-shadow: 0 0 4vw #e55643;
+    box-shadow: 0 0 4vw #fd1e00;
+}
+
+.microsoft {
+    position: absolute;
+    width: 840px;
+    height: 472.5px;
+    top: 249%;
+    left: 12%;
+    z-index: 20;
+    box-shadow: 0 0 4vw #0592c9;
 }
 /***************/
 /* page2-test  */
 /***************/
-
 
 

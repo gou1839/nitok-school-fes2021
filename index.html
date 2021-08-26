@@ -386,13 +386,14 @@
         <span class="title">Festival</span>
     </h1>
     <a class="scrolldown" href="#detail"><span></span></a>
+
 </section>
 
 <section class="theme">
     <span class="string">冒険、</span> <br>
     <span class="string">挑戦、</span> <br>
-    <span class="string">高専。</span> <br>
-    <span class="string">こん中にひよってるやついる？</span>
+    <span class="string">高専、</span> <br>
+    <span class="string1">こん中に<span class="string2">ひよってるやついる？</span></span>
 </section>
 
 
@@ -421,26 +422,42 @@
 <section class="page1" id="detail">
     <div class="content1 slideContsL slideConts">
         <h2 class="about">開催概要</h2>
-        <h2 class="wor"> 今年の高専祭は<span class="red">オンライン</span>開催です</h2>
+        <h2 class="wor"> 今年の高専祭は<span class="br"><span class="red">オンライン</span>開催です</span></h2>
         <p class="detail">2021.10/DD <br>
             HH:MM ~ HH:MM
         </p>
     </div>
-    <button class="cybr-btn" onClick="location.href='http://google.com'">
+    <button class="cybr-btn slideContsR slideConts" onClick="location.href='http://google.com'">
         Youtube Live <i class="fas fa-external-link-square-alt fa-xs"></i>
-        <span aria-hidden class="cybr-btn__glitch">Youtube Live <i class="fas fa-external-link-square-alt fa-xs"></i></span>
+        <span aria-hidden class="cybr-btn__glitch">Youtube Live <i
+                class="fas fa-external-link-square-alt fa-xs"></i></span>
         <span aria-hidden class="cybr-btn__tag">ON AIR</span>
     </button>
 
-    <iframe class="slideContsR slideConts" width="840" height="472.5" src="https://www.youtube.com/embed/HpdO5Kq3o7Y?wmode=transparent&rel=0&modestbranding=0&showinfo=0&fs=0&controls=0" title="YouTube video player"
+    <iframe class="youtube slideContsR slideConts"
+            src="https://www.youtube.com/embed/HpdO5Kq3o7Y?wmode=transparent&rel=0&modestbranding=0&showinfo=0&fs=0&controls=0"
+            title="YouTube video player"
             frameborder="0" wmode="Opaque"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+            allowfullscreen>
+    </iframe>
+
+    <button class="cybr-btn2 slideContsL slideConts" onClick="location.href='http://google.com'">
+        Microsoft Stream <i class="fas fa-external-link-square-alt fa-xs"></i>
+        <span aria-hidden class="cybr-btn__glitch">Microsoft Stream <i
+                class="fas fa-external-link-square-alt fa-xs"></i></span>
+        <span aria-hidden class="cybr-btn__tag">ON AIR</span>
+    </button>
+
+    <iframe class="microsoft slideContsL slideConts"
+            src="https://web.microsoftstream.com/embed/video/50d609ba-1232-470b-8abd-167624e0b364?autoplay=false&showinfo=false"
+            allowfullscreen style="border:none;">
+    </iframe>
 </section>
 
-<section class="page2" id="slidetest">
 
-</section>
+
+
 <!--<button class="btn" id="fullscr">Go Fullscreen</button>-->
 <script type="text/javascript" src="scripts/background.js"></script>
 <script type="text/javascript" src="scripts/title.js"></script>

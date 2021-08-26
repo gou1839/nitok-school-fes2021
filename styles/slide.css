@@ -1,20 +1,12 @@
-#wrap {
-    position: relative;
-    overflow: hidden;
-    width: 800px;
-    margin: 0 auto;
-}
 .slideConts {
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
 }
 .slideContsL {
-    background-color: #4D4D4D;
     transform: translate(-800px, 0);
 }
 .slideContsR {
-    background-color: #b86267;
     transform: translate(800px, 0);
 }
 .slideContsL.show {

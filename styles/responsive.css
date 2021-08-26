@@ -11,14 +11,51 @@
 
     }
 
-    .scrolldown span {
-        width: 24px;
-        height: 24px;
-        border-left: 2px solid #fff;
-        border-bottom: 2px solid #fff;
+    .theme {
+        transform: translate(1%, 12%);
+        font-size: 150%;
     }
 
-    .slideContsL.show {
-        transform: translate(10em, 0) !important;
+    .page1 {
+        top: 90%;
+        left: 5%;
+        /*display: block;*/
+        position: absolute;
+        max-width: 550px;
+        z-index: auto;
+    }
+
+    .content1 {
+        width: 110%;
+        padding:8% 4% 11% 9%; /* 枠と文字の空間 */
+    }
+
+    .about {
+        font-size: 3em;
+    }
+
+    .br {
+        display:block;
+    }
+
+    .slideContsR {
+        transform: translate(-800px, 0) !important;
+    }
+
+    .cybr-btn {
+        min-width: 250px !important;
+        top: 92% !important;
+        left: 10% !important;
+        z-index: 30;
+        line-height: 15px;
+        transition: background 0.2s;
+    }
+
+    .cybr-btn2 {
+        display: none;
+    }
+
+    .page1 iframe {
+        display: none;
     }
 }
