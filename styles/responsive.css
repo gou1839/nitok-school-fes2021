@@ -4,6 +4,23 @@
 
 @media screen and (max-width: 480px) {
     /* 480px以下に適用されるCSS（スマホ用） */
+    .theme br {
+        display: none;
+    }
+
+    .string {
+        padding-top: 100%;
+    }
+
+    .string br {
+        display: none;
+    }
+
+    .string1::before {
+        content: "\A";
+        white-space: pre;
+    }
+
     .top h1 {
         font-size: 36px;
         line-height: 37px;
@@ -12,12 +29,12 @@
     }
 
     .theme {
-        transform: translate(1%, 12%);
+        transform: translate(1%, 1500%);
         font-size: 150%;
     }
 
     .page1 {
-        top: 90%;
+        top: 150%;
         left: 5%;
     }
 
@@ -53,54 +70,51 @@
     }
 
     .page2 {
-        top: 150%;
+        top: 250%;
+        left: 50%;
     }
+
 
     .page2 h1 {
         font-size: 50px;
-        white-space: nowrap;
     }
 
-    .page2-p {
-        top: 154%;
-        white-space: nowrap;
-        font-size: 10px;
+    .new {
+       padding-left: 7%;
+        line-height: 10%;
     }
 
     .page2-sns {
-        top: 190%;
+        top: 265%;
+        left: -3%;
     }
 
     .page3 {
         display: none;
-        transform: translate(-50%, -50%);
-        top: 270%;
-        left: 27%;
     }
 
-    .sponsor {
-        font-size: 50px;
+    .page4 {
+        top: 380%;
+        left: 0%;
+        /*display: block;*/
+        position: absolute;
+        z-index: auto;
     }
 
-    .content {
-        width: 40px !important;
-        height: 40px !important;
+    .content2 {
+        width: 110%;
+        padding:8% 4% 11% 9%;
     }
 
-    .wrap {
-        /*overflow: none !important;
-        display: block !important;
-        height: 340px;
-        margin-bottom: 100px;*/
+    .content3 {
+        width: 120%;
+        height: 550%;
+        top: 90%;
+        left: -15%;
     }
 
-    .none {
-        display: none !important;
-    }
-
-    .slideshow {
-        display: flex;
-        -webkit-animation: aaa 20s infinite linear 1s both !important;
-        animation: aaa 20s infinite linear 1s both !important;
+    .cc {
+        top: 720%;
+        white-space: nowrap;
     }
 }

@@ -19,8 +19,6 @@ html {
     src: url(../assets/fonts/harryp.TTF) format('truetype');
 }
 
-
-
 svg {
     display: block;
     width: 100%;
@@ -146,12 +144,7 @@ svg {
 /***************/
 .theme {
     transform: translate(1%, 132%);
-    top: 77%;
-    left: 135%;
-    /*display: block;*/
     z-index: auto;
-    text-transform: uppercase;
-    white-space: nowrap;
     color: white;
     background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
     -webkit-background-clip: text;
@@ -161,6 +154,7 @@ svg {
     font-weight: bold;
     line-height : 105%;
 }
+
 
 /***************/
 /* page1-dtail */
@@ -246,8 +240,8 @@ svg {
 
 .page2 {
     transform: translate(-50%, -50%);
-    top: 310%;
-    left: 47%;
+    top: 330%;
+    left: 50%;
     display: block;
     white-space: nowrap;
     position: absolute;
@@ -263,35 +257,15 @@ svg {
     font-family: Cyber;
 }
 
-.page2-p {
-    transform: translate(-50%, -50%);
-    top: 315%;
-    left: 50%;
-    display: block;
-    position: absolute;
-}
-
-.page2-p h2 {
-    color: #fff;
-    text-transform: uppercase;
-    margin: 0;
-    line-height: 80px;
-    letter-spacing: 4px;
-    font-family: Noto Sans JP;
+.new {
+    color: white;
+    padding-left: 30%;
 }
 
 .page2-sns {
     transform: translate(-50%, -50%);
-    top: 350%;
-    left: 50%;
-    display: block;
-    position: absolute;
-}
-
-.page2-sns1 {
-    transform: translate(-50%, -50%);
-    top: 350%;
-    left: 100%;
+    top: 340%;
+    left: 39.5%;
     display: block;
     position: absolute;
 }
@@ -314,6 +288,9 @@ svg {
     font-family: Cyber;
     padding-bottom: 0px;
     color: white;
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
 }
 
 li a{
@@ -326,7 +303,7 @@ li a{
 /* page4-hello */
 /***************/
 .page4 {
-    top: 500%;
+    top: 540%;
     left: 20%;
     /*display: block;*/
     position: absolute;
@@ -367,3 +344,16 @@ li a{
 }
 
 
+/*CC*/
+.cc {
+    transform: translate(-50%, -50%);
+    top: 650%;
+    left: 50%;
+    display: block;
+    position: absolute;
+}
+
+.cc p {
+    color: white;
+    font-size: 15px;
+}
