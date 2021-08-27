@@ -16,7 +16,7 @@ html {
 
 @font-face {
     font-family: hp;
-    src: url(../assets/fonts/harryp.ttf) format('truetype');
+    src: url(/harryp.ttf) format('truetype');
 }
 
 
