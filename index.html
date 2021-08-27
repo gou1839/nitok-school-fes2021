@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -15,12 +15,16 @@
     <link rel="stylesheet" href="styles/button_anim.css">
     <link rel="stylesheet" href="styles/slide.css">
     <link rel="stylesheet" href="styles/slideshow_anim.css">
+    <link rel="stylesheet" href="styles/glitch.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
     <script src="https://kit.fontawesome.com/201d0c2824.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"
+            type="text/javascript"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
@@ -31,14 +35,14 @@
     <meta property="og:type" content="website"/>
     <meta property="og:description"
           content="所属: 国立沖縄工業高等専門学校. 学科: 情報通信システム工学科. Skills: Python.PyCharm. OpenCV. Discordbot.Kotlin.AndroidStudio. IntelliJ. Android.Go.GoLand. net/http.HTML.WebStorm.CSS.WebStorm Bootstrap.JavaScript.WebStorm. jQuery. Vue.js. Electron.Git.cmd. GitHub.Linux.Ubuntu. CentOS."/>
-    <meta property="og:image" content="https://i.imgur.com/ZuKTVOq.png"/>
+    <meta property="og:image" content="https://i.imgur.com/ZuKTVOq.jpg"/>
     <!--Twitter-->
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:site" content="@e381x"/>
     <meta name="twitter:title" content="KAKAO-MAME"/>
     <meta name="twitter:description"
           content="所属: 国立沖縄工業高等専門学校. 学科: 情報通信システム工学科. Skills: Python.PyCharm. OpenCV. Discordbot.Kotlin.AndroidStudio. IntelliJ. Android.Go.GoLand. net/http.HTML.WebStorm.CSS.WebStorm Bootstrap.JavaScript.WebStorm. jQuery. Vue.js. Electron.Git.cmd. GitHub.Linux.Ubuntu. CentOS."/>
-    <meta name="twitter:image" content="https://i.imgur.com/ZuKTVOq.png"/>
+    <meta name="twitter:image" content="https://i.imgur.com/ZuKTVOq.jpg"/>
     <!--Facebook-->
     <meta property="fb:app_id" content="752847515127619"/>
 
@@ -230,7 +234,7 @@
 
             <g id="fstar">
                 <image width="707" height="429" transform="translate(728.46 16.5) scale(0.24)"
-                       xlink:href="https://i.ibb.co/TWfhqRG/fstar.png"/>
+                       xlink:href="https://i.ibb.co/TWfhqRG/fstar.jpg"/>
                 <circle cx="768.6" cy="78.72" r="39.39" transform="translate(64.22 396.2) rotate(-30.11)"
                         fill="url(#fstar-grad)" style="mix-blend-mode: overlay"/>
             </g>
@@ -379,7 +383,6 @@
     </svg>
 </div>
 <div class="scrollElement"></div>
-
 <section class="top">
     <h1>
         <span class="title">ONCT</span>
@@ -396,29 +399,6 @@
     <span class="string">高専。</span> <br>
     <span class="string1">こん中に<span class="string2">ひよってるやついる？</span></span>
 </section>
-
-
-<!--<div class="menu-icon" onclick="this.classList.toggle('hover');Drop(0)">
-    <div class="menu-bar menu-bar1"></div>
-    <div class="menu-bar menu-bar2"></div>
-    <div class="menu-bar menu-bar3"></div>
-    <p>Menue</p>
-</div>
-
-<div class="menu">
-    <a href="index.html" class="menu-con"
-       style="background:IndianRed; background-image : url('./assets/img/gryf.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
-        <p>HOME</p></a>
-    <a href="pages/event.html" class="menu-con"
-       style="background:#faae2b ; background-image : url('./assets/img/huff.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
-        <p>EVENT</p></a>
-    <a href="pages/yatai.html" class="menu-con"
-       style="background:mediumseagreen; background-image : url('./assets/img/slyth.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
-        <p>YATAI</p></a>
-    <a href="pages/sponsor.html" class="menu-con"
-       style="background:teal; background-image : url('./assets/img/rav.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
-        <p>SPONSOR</p></a>
-</div>-->
 
 <section class="page1" id="detail">
     <div class="content1 slideContsL slideConts">
@@ -458,8 +438,7 @@
 </section>
 
 <section class="page2" id="sns">
-    <h1>FOLLOW US</h1>
-
+    <h1 class="glitch" data-text="FOLLOW US">FOLLOW US</h1>
 </section>
 <section class="page2-p">
     <h2>最新情報をチェック!</h2>
@@ -472,35 +451,74 @@
 
 
 <section class="page3">
-    <h1 class="sponsor">SPONSOR</h1>
+    <h1 class="sponsor glitch" data-text="SPONSOR">SPONSOR</h1>
     <div class="wrap slide-paused" ontouchstart="">
         <ul class="slideshow">
-            <li class="content"></li>
-            <li class="content"></li>
-            <li class="content"></li>
-            <li class="content"></li>
-            <li class="content"></li>
+            <li class="content"><a href="assets/img/spons1.jpg" data-lightbox="spons1" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons2.jpg" data-lightbox="spons2" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons3.jpg" data-lightbox="spons3" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons4.jpg" data-lightbox="spons4" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons5.jpg" data-lightbox="spons5" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons7.jpg" data-lightbox="spons6" data-title=" "></a>
+                <a href="assets/img/spons6.jpg" data-lightbox="spons6" data-title=" "></a>
+            </li>
         </ul>
-        <ul class="slideshow">
-            <li class="content"></li>
-            <li class="content"></li>
-            <li class="content"></li>
-            <li class="content"></li>
-            <li class="content"></li>
+        <ul class="slideshow none">
+            <li class="content"><a href="assets/img/spons1.jpg" data-lightbox="spons1" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons2.jpg" data-lightbox="spons2" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons3.jpg" data-lightbox="spons3" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons4.jpg" data-lightbox="spons4" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons5.jpg" data-lightbox="spons5" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons7.jpg" data-lightbox="spons6" data-title=" "></a>
+            </li>
+            <a href="assets/img/spons6.jpg" data-lightbox="spons6" data-title=" "></a>
         </ul>
-        <ul class="slideshow">
-            <li class="content"></li>
-            <li class="content"></li>
-            <li class="content"></li>
-            <li class="content"></li>
-            <li class="content"></li>
+        <ul class="slideshow none">
+            <li class="content"><a href="assets/img/spons1.jpg" data-lightbox="spons1" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons2.jpg" data-lightbox="spons2" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons3.jpg" data-lightbox="spons3" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons4.jpg" data-lightbox="spons4" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons5.jpg" data-lightbox="spons5" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons7.jpg" data-lightbox="spons6" data-title=" "></a>
+                <a href="assets/img/spons6.jpg" data-lightbox="spons6" data-title=" "></a>
+            </li>
         </ul>
     </div>
 </section>
+
+<section class="page4">
+    <div class="content2 slideContsL slideConts">
+        <h2 class="about">校長挨拶</h2>
+        <h2 class="wor"> 沖縄工業高等専門学校長</h2>
+        <p class="koutyouname">伊原　博隆</p>
+    </div>
+    <div class="content3 slideContsR slideConts">
+        <p>
+            ようこそ高専祭へ！</br>
+            </br>
+            本日は第１６回高専祭にご来場いただき、誠にありがとうございます。心より歓迎いたします。</br>
+            本イベントは、本校創立２年目の２００４年度から毎年開催してきた学生主体の学校行事ですが、 </br>
+            昨年度は新型コロナウィルス感染症拡大防止のため、残念ながら初めての中止となってしまいました。</br>
+            本年も厳しい状況下にありますが、これまでの経験を活かし、感染対策を徹底して本イベントを再開することを </br>
+            決定しました。学生の日頃の活動の成果を披露する場を設けることができたこと、そして皆様を沖縄高専へお迎えすることができたことを、非常に嬉しく思います。</br>
+            </br>
+            今年度のテーマは「冒険、挑戦、高専～こん中にひよってるやついる？」。</br>
+            そこでネットで「ひよってる」について調べてみると、人気アニメの「東京リベンジャーズ」で登場人物マイキーが発する名言の一つとなっており、これが若者言葉として「怖気づく」や「やる気を失う」の意味で利用されています。
+            さらにこの語源を深掘りしてみると、「力のある方につこうと形勢をうかがうこと」や</br>
+            「積極的に関わらずに傍観すること」に繋がる深い意味合いがあり、長いコロナ禍にあっては、自己反省を含め、「ひよ」らない姿勢や行動、
+            そして挑戦する気持ちが大切だということを改めて教えてくれました。</br>
+            ２年ぶりに開催されたる高専祭は、長引くコロナ禍での学生達の熱い思い、そして蓄えられたエネルギーと希望を感じていただけるはずです。</br>
+            </br>
+            結びにあたり、この高専祭の開催にご協力頂きました関係企業や各種団体の皆様方、</br>
+            日頃より沖縄高専の教育・研究活動に温かいご理解とご支援を頂いている地域住民の皆様方、 </br>
+            本校後援会ならびに産学連携協力会の関係各位に心より御礼申し上げます。</br>
+        </p>
+    </div>
+</section>
+
 <!--<button class="btn" id="fullscr">Go Fullscreen</button>-->
 <script type="text/javascript" src="scripts/background.js"></script>
 <script type="text/javascript" src="scripts/title.js"></script>
-<script type="text/javascript" src="scripts/menue.js"></script>
 <script type="text/javascript" src="scripts/slide.js"></script>
 </script>
 </body>

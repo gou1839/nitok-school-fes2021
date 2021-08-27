@@ -7,7 +7,7 @@
 }
 
 .content:nth-child(1) {
-    background-image: url("../assets/img/spons1.png");
+    background-image: url("../assets/img/spons1.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 }
 
 .content:nth-child(2) {
-    background-image: url("../assets/img/spons2.png");
+    background-image: url("../assets/img/spons2.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@
 }
 
 .content:nth-child(3) {
-    background-image: url("../assets/img/spons3.png");
+    background-image: url("../assets/img/spons3.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@
 }
 
 .content:nth-child(4) {
-    background-image: url("../assets/img/spons4.png");
+    background-image: url("../assets/img/spons4.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -39,7 +39,15 @@
 }
 
 .content:nth-child(5) {
-    background-image: url("../assets/img/spons5.png");
+    background-image: url("../assets/img/spons5.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #4D4D4D;
+}
+
+.content:nth-child(6) {
+    background-image: url("../assets/img/spons7.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -87,12 +95,12 @@
 }
 
 /* ホバー時の装飾（パターン3） */
-.content-hover {
+.content {
     transition: all 0.2s;
     margin-right: 20px;
 }
 
-.content-hover:hover {
+.content:hover {
     transform: translateY(-20px);
     border-radius: 0 10%;
     box-shadow: 0 3px 10px 0 #333;

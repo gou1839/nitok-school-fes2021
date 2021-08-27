@@ -71,5 +71,36 @@
         top: 190%;
     }
 
+    .page3 {
+        display: none;
+        transform: translate(-50%, -50%);
+        top: 270%;
+        left: 27%;
+    }
 
+    .sponsor {
+        font-size: 50px;
+    }
+
+    .content {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .wrap {
+        /*overflow: none !important;
+        display: block !important;
+        height: 340px;
+        margin-bottom: 100px;*/
+    }
+
+    .none {
+        display: none !important;
+    }
+
+    .slideshow {
+        display: flex;
+        -webkit-animation: aaa 20s infinite linear 1s both !important;
+        animation: aaa 20s infinite linear 1s both !important;
+    }
 }
