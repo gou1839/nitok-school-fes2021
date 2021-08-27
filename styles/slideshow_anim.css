@@ -12,6 +12,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #4D4D4D;
+    opacity: 0.9;
 }
 
 .content:nth-child(2) {
@@ -20,6 +21,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #4D4D4D;
+    opacity: 0.9;
 }
 
 .content:nth-child(3) {
@@ -28,6 +30,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #4D4D4D;
+    opacity: 0.9;
 }
 
 .content:nth-child(4) {
@@ -36,6 +39,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #4D4D4D;
+    opacity: 0.9;
 }
 
 .content:nth-child(5) {
@@ -44,6 +48,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #4D4D4D;
+    opacity: 0.9;
 }
 
 .content:nth-child(6) {
@@ -52,6 +57,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #4D4D4D;
+    opacity: 0.9;
 }
 
 /* スライドレールの枠 */
