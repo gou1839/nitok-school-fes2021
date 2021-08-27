@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 body,
@@ -300,24 +301,31 @@ svg {
     background-color: #4D4D4D;
 }
 
+.name {
+    font-size: 1em;
+    font-family: Noto Sans JP;
+    color: #999999;
+    line-height : 100%;
+    margin-bottom: 0;
+}
+
 .about {
     font-size: 5em;
     font-family: hp;
     color: #999999;
-    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height : 120%;
     font-family: Noto Sans JP;
 
 }
 
 .wor {
-    margin-top: 0px;
-    line-height : 100%;
+    margin-top: 10px;
     font-family: Noto Sans JP;
 }
 
 .red {
     font-family: Noto Sans JP;
-    line-height : 100%;
     color: #E8AA99;
 }
 
@@ -342,13 +350,99 @@ svg {
     position: absolute;
     width: 840px;
     height: 472.5px;
-    top: 249%;
+    top: 230%;
     left: 12%;
     z-index: 20;
     box-shadow: 0 0 4vw #0592c9;
 }
+
 /***************/
-/* page2-test  */
+/* page2-sns   */
 /***************/
 
+.page2 {
+    transform: translate(-50%, -50%);
+    top: 310%;
+    left: 50%;
+    display: block;
+    position: absolute;
+}
+
+.page2 h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 100px;
+    margin: 0;
+    line-height: 80px;
+    letter-spacing: 4px;
+    font-family: Cyber;
+}
+
+.page2-p {
+    transform: translate(-50%, -50%);
+    top: 315%;
+    left: 50%;
+    display: block;
+    position: absolute;
+}
+
+.page2-p h2 {
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 80px;
+    letter-spacing: 4px;
+    font-family: Noto Sans JP;
+}
+
+.page2-sns {
+    transform: translate(-50%, -50%);
+    top: 350%;
+    left: 50%;
+    display: block;
+    position: absolute;
+}
+
+.page2-sns1 {
+    transform: translate(-50%, -50%);
+    top: 350%;
+    left: 100%;
+    display: block;
+    position: absolute;
+}
+
+/***************/
+/*page3-sponsor*/
+/***************/
+
+.page3 {
+    transform: translate(-50%, -50%);
+    top: 450%;
+    left: 50%;
+    display: block;
+    position: absolute;
+}
+
+.sponsor {
+    transform: translate(45%, -50%);
+    font-size: 100px;
+    font-family: Cyber;
+    padding-bottom: 0px;
+    color: white;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    　overflow: hidden;
+}
+
+.slideshow {
+    display: flex;
+}
+
+.content {
+    width: 300px;
+    height: 300px;
+}
 

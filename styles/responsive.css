@@ -19,10 +19,6 @@
     .page1 {
         top: 90%;
         left: 5%;
-        /*display: block;*/
-        position: absolute;
-        max-width: 550px;
-        z-index: auto;
     }
 
     .content1 {
@@ -46,9 +42,6 @@
         min-width: 250px !important;
         top: 92% !important;
         left: 10% !important;
-        z-index: 30;
-        line-height: 15px;
-        transition: background 0.2s;
     }
 
     .cybr-btn2 {
@@ -58,4 +51,25 @@
     .page1 iframe {
         display: none;
     }
+
+    .page2 {
+        top: 150%;
+    }
+
+    .page2 h1 {
+        font-size: 50px;
+        white-space: nowrap;
+    }
+
+    .page2-p {
+        top: 154%;
+        white-space: nowrap;
+        font-size: 10px;
+    }
+
+    .page2-sns {
+        top: 190%;
+    }
+
+
 }
