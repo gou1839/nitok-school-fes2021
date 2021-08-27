@@ -145,6 +145,10 @@ svg {
 /*    Theme    */
 /***************/
 .theme {
+    top: 0%;
+    left: 1vh;
+    /*display: block;*/
+    position: absolute;
     transform: translate(1%, 132%);
     z-index: auto;
     color: white;
