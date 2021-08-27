@@ -12,6 +12,8 @@ html {
     height: 100%;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    overflow-y : auto;
+
 }
 
 @font-face {
@@ -162,7 +164,7 @@ svg {
 /***************/
 .page1 {
     top: 150%;
-    left: 15%;
+    left: 25vh;
     /*display: block;*/
     position: absolute;
     max-width: 550px;
@@ -196,7 +198,6 @@ svg {
     margin-top: 0px;
     line-height : 120%;
     font-family: Noto Sans JP;
-
 }
 
 .wor {
@@ -221,7 +222,7 @@ svg {
     width: 840px;
     height: 472.5px;
     top: 89%;
-    left: 97%;
+    left: 20vw;
     z-index: 20;
     box-shadow: 0 0 4vw #fd1e00;
 }

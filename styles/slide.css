@@ -1,13 +1,13 @@
 .slideConts {
-    -webkit-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
 }
 .slideContsL {
-    transform: translate(-800px, 0);
+    transform: translate(-100px, 0);
 }
 .slideContsR {
-    transform: translate(800px, 0);
+    transform: translate(100px, 0);
 }
 .slideContsL.show {
     transform: translate(0em, 0) !important;
