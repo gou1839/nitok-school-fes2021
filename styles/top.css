@@ -153,6 +153,7 @@ svg {
     font-family: Noto Sans JP;
     font-weight: bold;
     line-height : 105%;
+    opacity: 0.6;
 }
 
 
@@ -177,6 +178,7 @@ svg {
     font-family: Noto Sans JP;
     z-index: 10;
     background-color: #4D4D4D;
+    opacity: 0.9;
 }
 
 .name {
@@ -320,6 +322,7 @@ li a{
     font-family: Noto Sans JP;
     z-index: 10;
     background-color: #4D4D4D;
+    opacity: 0.8;
 }
 
 .koutyouname {
@@ -339,6 +342,7 @@ li a{
     color: white;
     font-family: Noto Sans JP;
     background-color: #1A1A1A;
+    opacity: 0.8;
     /*box-shadow: 0 0 4vw #fd1e00;*/
     z-index: 20;
 }
