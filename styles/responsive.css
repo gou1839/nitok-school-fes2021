@@ -152,9 +152,9 @@
     }
 
     .cybr-btn {
-        min-width: 250px !important;
-        top: 92% !important;
-        left: 10% !important;
+        min-width: 65vw !important;
+        top: 33vh !important;
+        left: 10vw !important;
     }
 
     .cybr-btn2 {
@@ -182,7 +182,7 @@
 
     .page2-sns {
         top: 265%;
-        left: -3%;
+        left: -3vw;
     }
 
     .page3 {
