@@ -258,6 +258,7 @@
 }
 
 @media screen and (max-width: 480px) {
+    /* 480px以下に適用されるCSS（スマホ用） */
     body, html {
         overflow-x: hidden;
     }
@@ -297,14 +298,14 @@
 
     .cybr-btn {
         min-width: 65vw !important;
-        top: 50vh !important;
+        top: 40vh !important;
         left: 0vw !important;
     }
 
     .youtube {
         width: 440px;
         height: 256.25px;
-        top: 125%;
+        top: 140%;
         left: 0vw;
     }
 
@@ -336,7 +337,7 @@
     }
 
     .page3 {
-        top: 390vh;
+        top: 380vh;
     }
 
     .page3 h1 {
@@ -345,14 +346,14 @@
 
     .sponsor {
         transform: translate(20%, -50%);
-        top: 440%;
+        top: 420%;
         position: absolute;
         width: 70%;
         margin: 0 auto;
     }
 
     .page4 {
-        top: 520%;
+        top: 470%;
         left: 5%;
         /*display: block;*/
         position: absolute;
@@ -372,12 +373,11 @@
     }
 
     .cc {
-        top: 900vh;
+        top: 730vh;
         left: 50%;
         white-space: nowrap;
     }
 }
-
 
 @media screen and (max-width: 375px) {
     body, html {
