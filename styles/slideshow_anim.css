@@ -67,6 +67,8 @@
     align-items: center;
     height: 340px;
     margin-bottom: 100px;
+    margin-top: 20px;
+    transform: translate(-30%);
 }
 
 /* content4つをまとめたスライドブロック */
