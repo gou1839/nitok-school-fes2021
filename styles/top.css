@@ -165,7 +165,7 @@ svg {
 /* page1-dtail */
 /***************/
 .page1 {
-    top: 1200px;
+    top: 150vh;
     left: 20%;
     /*display: block;*/
     position: absolute;
@@ -245,7 +245,7 @@ svg {
 
 .page2 {
     transform: translate(-50%, -50%);
-    top: 3300px;
+    top: 370vh;
     left: 50%;
     display: block;
     white-space: nowrap;
@@ -278,7 +278,7 @@ svg {
 
 .page3 {
     transform: translate(-50%, -50%);
-    top: 4000px;
+    top: 480vh;
     left: 50%;
     display: block;
     position: absolute;
@@ -296,7 +296,7 @@ svg {
 
 .sponsor {
     transform: translate(50%, -50%);
-    top: 4300px;
+    top: 520%;
     position: absolute;
     width: 50%;
     margin: 0 auto;
@@ -308,7 +308,7 @@ svg {
 /* page4-hello */
 /***************/
 .page4 {
-    top: 5000px;
+    top: 570vh;
     left: 20%;
     /*display: block;*/
     position: absolute;
