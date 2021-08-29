@@ -12,8 +12,7 @@
 
 
     .theme {
-        top: -20%;
-        left: 0%;
+        top: 50vh;
         font-size: 500%;
         opacity: 0.9;
     }
@@ -100,8 +99,8 @@
     }
 }
 
-@media screen and (max-width: 959px) {
-    /* 959px以下に適用されるCSS（タブレット用） */
+@media screen and (max-width: 768px) {
+    /* 768px以下に適用されるCSS（iPad用） */
 
     body, html {
         overflow-x: hidden;
@@ -116,14 +115,12 @@
 
 
     .theme {
-        top: -10%;
-        font-size: 570%;
-        opacity: 0.9;
+        top: 75vh;
+        font-size: 340%;
     }
 
     .page1 {
-        top: 150%;
-        left: 3vh;
+        left: 5%;
     }
 
     .content1 {
@@ -154,10 +151,9 @@
     }
 
     .page2 {
-        top: 270%;
+        top: 300%;
         left: 50%;
     }
-
 
     .page2 h1 {
         font-size: 50px;
@@ -168,35 +164,42 @@
         padding-left: 10%;
     }
 
-    .page2-sns {
-        top: 285%;
-        left: 24%;
+    .twitter {
+        padding-top: 40px;
+        padding-left: 0%;
     }
 
     .page3 {
-        display: none;
+        top: 380%;
+        font-size: 50px;
+        left: 50%;
+    }
+
+    .sponsor {
+        top: 410%;
+        width: 50%;
     }
 
     .page4 {
-        top: 380%;
+        top: 470%;
         left: 5%;
     }
 
     .content2 {
-        width: 130%;
+        width: 120%;
         padding:8% 4% 11% 9%;
     }
 
     .content3 {
         width: 170%;
-        height: 290%;
+        height: 230%;
         top: 90%;
         left: 15%;
     }
 
     .cc {
-        top: 720%;
-        white-space: nowrap;
+        top: 600%;
+        left: 35%;
     }
 }
 

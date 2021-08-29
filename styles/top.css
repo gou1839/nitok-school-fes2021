@@ -144,11 +144,10 @@ svg {
 /*    Theme    */
 /***************/
 .theme {
-    top: 0%;
+    top: 55vh;
     left: 1vh;
     /*display: block;*/
     position: absolute;
-    transform: translate(1%, 132%);
     z-index: auto;
     color: white;
     background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
@@ -284,7 +283,7 @@ svg {
 .page3 {
     transform: translate(-50%, -50%);
     top: 480%;
-    left: 54%;
+    left: 50%;
     display: block;
     position: absolute;
 }
