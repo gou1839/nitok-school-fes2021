@@ -19,7 +19,7 @@
     }
 
     .page1 {
-        top: 150%;
+
         left: 30vh;
     }
 
@@ -51,10 +51,8 @@
     }
 
     .page2 {
-        top: 350%;
         left: 50%;
     }
-
 
     .page2 h1 {
         font-size: 70px;
@@ -65,54 +63,34 @@
         padding-left: 18%;
     }
 
-    .page2-sns {
-        top: 363%;
-        left: 38%;
+    .twitter {
+        padding-top: 20px;
+        padding-left: 35px;
     }
 
-    .page3 {
-
-        transform: translate(-50%, -50%);
-        top: 500%;
-        left: 62%;
-        display: block;
-        position: absolute;
-    }
-
-    .content {
-        display: none;
-    }
-
-    .sponsor {
-        display: none;
-        /*transform: translate(-24%, -50%);*/
-        /*font-size: 70px;*/
-        /*font-family: Cyber;*/
-        /*padding-bottom: 0px;*/
-        /*color: white;*/
-        /*position: relative;*/
-        /*width: 400px;*/
-        /*margin: 0 auto;*/
-    }
-
-    li a{
-        display: none;
+    .slide-show {
+        left: -60px;
     }
 
     .page4 {
-        display: none;
+
     }
 
     .content2 {
-        display: none;
+        width: 120%;
     }
 
     .content3 {
-        display: none;
+        left: 70%;
+        width: 190%;
+        height: 210%;
+        padding:8% 10% 22% 10%;
+        font-size: 90%;
+
     }
 
     .cc {
-        display: none;
+        top: 800%;
     }
 }
 

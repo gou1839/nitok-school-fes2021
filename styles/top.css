@@ -274,7 +274,7 @@ svg {
 
 .twitter {
     padding-top: 20px;
-    padding-left: 21%;
+    padding-left: 100px;
 }
 
 /***************/
@@ -301,7 +301,7 @@ svg {
 
 .slide-show {
     position: relative;
-    left: -10%;
+    left: -100px;
     padding-top: 30px;
 }
 
@@ -340,7 +340,7 @@ svg {
 .content3 {
     position: absolute;
     width: 840px;
-    height: 472.5px;
+    height: 190%;
     top: 80%;
     left: 100%;
     padding:8% 4% 22% 9%;
@@ -356,9 +356,8 @@ svg {
 
 /*CC*/
 .cc {
-    transform: translate(-50%, -50%);
     top: 700%;
-    left: 50%;
+    left: 45%;
     display: block;
     position: absolute;
 }
