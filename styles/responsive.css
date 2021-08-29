@@ -86,7 +86,7 @@
     }
 
     .content3 {
-        left: 70%;
+        left: 60%;
         width: 190%;
         height: 210%;
         padding:8% 10% 22% 10%;
@@ -95,6 +95,7 @@
     }
 
     .cc {
+        transform: translate(-50%, -50%);
         top: 800%;
     }
 }
@@ -271,7 +272,6 @@
     }
 
     .page2 {
-
         left: 50%;
     }
 
@@ -291,25 +291,23 @@
     }
 
     .page3 {
-        transform: translate(-50%, -50%);
-        top: 480%;
-        left: 54%;
-        display: block;
-        position: absolute;
+        top: 380vh;
     }
 
     .page3 h1 {
         font-size: 50px;
     }
 
-    .slide-show {
-        position: relative;
-        left: -55px;
-        padding-top: 30px;
+    .sponsor {
+        transform: translate(20%, -50%);
+        top: 420%;
+        position: absolute;
+        width: 70%;
+        margin: 0 auto;
     }
 
     .page4 {
-        display: none;
+        top: 470%;
         left: 0%;
         /*display: block;*/
         position: absolute;
@@ -317,20 +315,20 @@
     }
 
     .content2 {
-        width: 110%;
+        width: 100%;
         padding:8% 4% 11% 9%;
     }
 
     .content3 {
-        width: 120%;
-        height: 550%;
+        width: 110%;
+        height: 470%;
         top: 90%;
-        left: -15%;
+        left: 6%;
     }
 
     .cc {
-        display: none;
-        top: 990vh;
+        top: 730vh;
+        left: 50%;
         white-space: nowrap;
     }
 }

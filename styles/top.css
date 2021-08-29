@@ -353,8 +353,9 @@ svg {
 
 /*CC*/
 .cc {
+    transform: translate(-50%, -50%);
     top: 700vh;
-    left: 45%;
+    left: 50%;
     display: block;
     position: absolute;
 }
@@ -362,4 +363,5 @@ svg {
 .cc p {
     color: white;
     font-size: 15px;
+    white-space: nowrap;
 }
