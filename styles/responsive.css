@@ -80,7 +80,6 @@
     }
 
 
-
     .content2 {
         width: 120%;
     }
@@ -89,7 +88,7 @@
         left: 60%;
         width: 190%;
         height: 210%;
-        padding:8% 10% 22% 10%;
+        padding: 8% 10% 22% 10%;
         font-size: 90%;
 
     }
@@ -144,7 +143,7 @@
         left: 60%;
         width: 190%;
         height: 210%;
-        padding:8% 10% 22% 10%;
+        padding: 8% 10% 22% 10%;
         font-size: 90%;
 
     }
@@ -155,9 +154,8 @@
     }
 }
 
-    @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     /* 768px以下に適用されるCSS（iPad用） */
-
     body, html {
         overflow-x: hidden;
     }
@@ -243,7 +241,7 @@
 
     .content2 {
         width: 120%;
-        padding:8% 4% 11% 9%;
+        padding: 8% 4% 11% 9%;
     }
 
     .content3 {
@@ -260,26 +258,12 @@
 }
 
 @media screen and (max-width: 480px) {
-    /* 480px以下に適用されるCSS（スマホ用） */
-    .theme br {
-        display: none;
-    }
-
-    .string {
-        padding-top: 100%;
-    }
-
-    .string br {
-        display: none;
-    }
-
-    .string1::before {
-        content: "\A";
-        white-space: pre;
+    body, html {
+        overflow-x: hidden;
     }
 
     .top h1 {
-        font-size: 36px;
+        font-size: 50px;
         line-height: 37px;
         letter-spacing: 1px;
 
@@ -287,17 +271,16 @@
 
     .theme {
         top: 83%;
-        font-size: 150%;
+        font-size: 210%;
     }
 
     .page1 {
-
         left: 5vw;
     }
 
     .content1 {
         width: 110%;
-        padding:8% 4% 11% 9%; /* 枠と文字の空間 */
+        padding: 8% 4% 11% 9%; /* 枠と文字の空間 */
     }
 
     .about {
@@ -305,7 +288,7 @@
     }
 
     .br {
-        display:block;
+        display: block;
     }
 
     .slideContsR {
@@ -314,15 +297,22 @@
 
     .cybr-btn {
         min-width: 65vw !important;
-        top: 40vh !important;
-        left: 10vw !important;
+        top: 50vh !important;
+        left: 0vw !important;
+    }
+
+    .youtube {
+        width: 440px;
+        height: 256.25px;
+        top: 125%;
+        left: 0vw;
     }
 
     .cybr-btn2 {
         display: none;
     }
 
-    .page1 iframe {
+    .microsoft {
         display: none;
     }
 
@@ -336,7 +326,7 @@
     }
 
     .new {
-       padding-left: 7%;
+        padding-left: 7%;
         line-height: 10%;
     }
 
@@ -346,7 +336,7 @@
     }
 
     .page3 {
-        top: 380vh;
+        top: 390vh;
     }
 
     .page3 h1 {
@@ -355,15 +345,15 @@
 
     .sponsor {
         transform: translate(20%, -50%);
-        top: 420%;
+        top: 440%;
         position: absolute;
         width: 70%;
         margin: 0 auto;
     }
 
     .page4 {
-        top: 470%;
-        left: 0%;
+        top: 520%;
+        left: 5%;
         /*display: block;*/
         position: absolute;
         z-index: auto;
@@ -371,18 +361,261 @@
 
     .content2 {
         width: 100%;
-        padding:8% 4% 11% 9%;
+        padding: 8% 4% 11% 9%;
     }
 
     .content3 {
-        width: 110%;
-        height: 470%;
+        width: 130%;
+        height: 420%;
         top: 90%;
-        left: 6%;
+        left: 10%;
     }
 
     .cc {
-        top: 730vh;
+        top: 900vh;
+        left: 50%;
+        white-space: nowrap;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    body, html {
+        overflow-x: hidden;
+    }
+
+    .top h1 {
+        font-size: 40px;
+        line-height: 37px;
+        letter-spacing: 1px;
+
+    }
+
+    .theme {
+        top: 83%;
+        font-size: 120%;
+    }
+
+    .page1 {
+        left: 1vw;
+    }
+
+    .content1 {
+        width: 100%;
+        padding: 8% 4% 11% 9%; /* 枠と文字の空間 */
+    }
+
+    .about {
+        font-size: 3em;
+    }
+
+    .br {
+        display: block;
+    }
+
+    .slideContsR {
+        transform: translate(-800px, 0) !important;
+    }
+
+    .cybr-btn {
+        min-width: 65vw !important;
+        top: 50vh !important;
+        left: 0vw !important;
+    }
+
+    .youtube {
+        width: 350px;
+        top: 130%;
+        left: 2vw;
+    }
+
+    .cybr-btn2 {
+        display: none;
+    }
+
+    .microsoft {
+        display: none;
+    }
+
+    .page2 {
+        top: 370%;
+        left: 50%;
+    }
+
+
+    .page2 h1 {
+        font-size: 50px;
+    }
+
+    .new {
+        padding-left: 7%;
+        line-height: 10%;
+    }
+
+    .page2-sns {
+        top: 265%;
+        left: -3vw;
+    }
+
+    .page3 {
+        top: 490vh;
+    }
+
+    .page3 h1 {
+        font-size: 50px;
+    }
+
+    .sponsor {
+        transform: translate(20%, -50%);
+        top: 540%;
+        position: absolute;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .page4 {
+        top: 650%;
+        left: 5%;
+        /*display: block;*/
+        position: absolute;
+        z-index: auto;
+    }
+
+    .content2 {
+        width: 100%;
+        padding: 8% 4% 11% 9%;
+    }
+
+    .content3 {
+        width: 100%;
+        height: 510%;
+        top: 90%;
+        left: 5%;
+    }
+
+    .cc {
+        top: 1050vh;
+        left: 50%;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body, html {
+        overflow-x: hidden;
+    }
+
+    .top h1 {
+        font-size: 40px;
+        line-height: 37px;
+        letter-spacing: 1px;
+
+    }
+
+    .theme {
+        top: 83%;
+        font-size: 120%;
+    }
+
+    .page1 {
+        left: 1vw;
+    }
+
+    .content1 {
+        width: 100%;
+        padding: 8% 4% 11% 9%; /* 枠と文字の空間 */
+    }
+
+    .about {
+        font-size: 3em;
+    }
+
+    .br {
+        display: block;
+    }
+
+    .slideContsR {
+        transform: translate(-800px, 0) !important;
+    }
+
+    .cybr-btn {
+        min-width: 65vw !important;
+        top: 60vh !important;
+        left: 0vw !important;
+    }
+
+    .youtube {
+        width: 300px;
+        top: 130%;
+        left: 0vw;
+    }
+
+    .cybr-btn2 {
+        display: none;
+    }
+
+    .microsoft {
+        display: none;
+    }
+
+    .page2 {
+        top: 370%;
+        left: 50%;
+    }
+
+
+    .page2 h1 {
+        font-size: 50px;
+    }
+
+    .new {
+        padding-left: 7%;
+        line-height: 10%;
+    }
+
+    .page2-sns {
+        top: 265%;
+        left: -3vw;
+    }
+
+    .page3 {
+        top: 490vh;
+    }
+
+    .page3 h1 {
+        font-size: 50px;
+    }
+
+    .sponsor {
+        transform: translate(20%, -50%);
+        top: 540%;
+        position: absolute;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .page4 {
+        top: 650%;
+        left: 1%;
+        /*display: block;*/
+        position: absolute;
+        z-index: auto;
+    }
+
+    .content2 {
+        width: 100%;
+        padding: 8% 4% 11% 9%;
+    }
+
+    .content3 {
+        width: 90%;
+        height: 560%;
+        top: 90%;
+        left: 5%;
+    }
+
+    .cc {
+        top: 1050vh;
         left: 50%;
         white-space: nowrap;
     }
