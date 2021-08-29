@@ -22,9 +22,6 @@ scene1.to("#h1-7", { y: 5 * speed, x: 1.6 * speed }, 0)
 scene1.to("#h1-8", { y: 3.5 * speed, x: 0.2 * speed }, 0)
 scene1.to("#h1-9", { y: 3.5 * speed, x: -0.2 * speed }, 0)
 
-//animate text
-scene1.to("#info", { y: 8 * speed }, 0)
-
 
 
 /*   Bird   */
@@ -41,22 +38,6 @@ gsap.fromTo("#bird", { opacity: 1 }, {
         onLeave: function() { gsap.to("#bird", { scaleX: -1, rotation: -15 }) },
     }
 })
-
-
-/* Clouds  */
-let clouds = gsap.timeline();
-ScrollTrigger.create({
-    animation: clouds,
-    trigger: ".scrollElement",
-    start: "top top",
-    end: "70% 100%",
-    scrub: 1,
-});
-
-clouds.to("#cloud1", { x: 500 }, 0)
-clouds.to("#cloud2", { x: 1000 }, 0)
-clouds.to("#cloud3", { x: -1000 }, 0)
-clouds.to("#cloud4", { x: -700, y: 25 }, 0)
 
 
 

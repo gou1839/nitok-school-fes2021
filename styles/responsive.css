@@ -72,9 +72,15 @@
         left: -60px;
     }
 
-    .page4 {
-
+    .page3 {
+        left: 50%;
     }
+
+    .page3 h1 {
+        font-size: 70px;
+    }
+
+
 
     .content2 {
         width: 120%;
