@@ -289,17 +289,20 @@ svg {
     position: absolute;
 }
 
-.sponsor {
-    transform: translate(23%, -50%);
+.page3 h1 {
+    color: #fff;
+    text-transform: uppercase;
     font-size: 100px;
+    margin: 0;
+    line-height: 80px;
+    letter-spacing: 4px;
     font-family: Cyber;
-    color: white;
-    width: 1000px;
-    margin: 0 auto;
 }
 
 .slide-show {
-    transform: translate(-7%, 0%);
+    position: relative;
+    left: -10%;
+    padding-top: 30px;
 }
 
 
@@ -308,7 +311,7 @@ svg {
 /* page4-hello */
 /***************/
 .page4 {
-    top: 540%;
+    top: 570%;
     left: 20%;
     /*display: block;*/
     position: absolute;
@@ -354,7 +357,7 @@ svg {
 /*CC*/
 .cc {
     transform: translate(-50%, -50%);
-    top: 650%;
+    top: 700%;
     left: 50%;
     display: block;
     position: absolute;
