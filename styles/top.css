@@ -15,8 +15,6 @@ html {
     overflow-y : auto;
 }
 
-
-
 @font-face {
     font-family: hp;
     src: url(../assets/fonts/harryp.TTF) format('truetype');
@@ -30,6 +28,14 @@ svg {
     top: 0;
     left: 0;
     filter: saturate(70%);
+}
+
+.scrollElement {
+    position: absolute;
+    height: 6000px;
+    width: 100px;
+    top: 0;
+    z-index: 0;
 }
 
 /***************************/
@@ -159,8 +165,7 @@ svg {
 /* page1-dtail */
 /***************/
 .page1 {
-    display: block;
-    top: 1500px;
+    top: 150vh;
     left: 20%;
     /*display: block;*/
     position: absolute;
@@ -190,7 +195,7 @@ svg {
 }
 
 .about {
-    font-size: 4vw;
+    font-size: 5em;
     font-family: hp;
     color: #999999;
     margin-top: 0px;
@@ -212,10 +217,6 @@ svg {
     margin-top: 30px;
     font-size: 25px;
     font-family: Cyber;
-}
-
-.youtubebutton {
-
 }
 
 .youtube {
@@ -294,8 +295,11 @@ svg {
 }
 
 .sponsor {
+    transform: translate(50%, -50%);
+    top: 520%;
     position: absolute;
-    width: 250%;
+    width: 50%;
+    margin: 0 auto;
 }
 
 
@@ -304,9 +308,8 @@ svg {
 /* page4-hello */
 /***************/
 .page4 {
-    top: 570%;
+    top: 570vh;
     left: 20%;
-    display: block;
     /*display: block;*/
     position: absolute;
     max-width: 550px;
@@ -327,17 +330,18 @@ svg {
 
 .koutyouname {
     margin-top: 10px;
-    font-size: 2.5vw;
+    font-size: 25px;
     font-family: Cyber;
 }
 
 .content3 {
     position: absolute;
-    width: 270%;
+    width: 840px;
+    height: 190%;
     top: 80%;
-    left: 10vw;
-    padding:8% 4%  8%;
-    font-size: 0.85vw;
+    left: 100%;
+    padding:8% 4% 22% 9%;
+    font-size: 100%;
     color: white;
     font-family: Noto Sans JP;
     background-color: #1A1A1A;
@@ -346,9 +350,10 @@ svg {
     z-index: 20;
 }
 
+
 /*CC*/
 .cc {
-    top: 700%;
+    top: 700vh;
     left: 45%;
     display: block;
     position: absolute;
