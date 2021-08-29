@@ -226,7 +226,7 @@
     }
 
     .page1 {
-        top: 150%;
+
         left: 5vw;
     }
 
@@ -262,7 +262,7 @@
     }
 
     .page2 {
-        top: 250%;
+
         left: 50%;
     }
 
@@ -282,11 +282,25 @@
     }
 
     .page3 {
-        display: none;
+        transform: translate(-50%, -50%);
+        top: 480%;
+        left: 54%;
+        display: block;
+        position: absolute;
+    }
+
+    .page3 h1 {
+        font-size: 50px;
+    }
+
+    .slide-show {
+        position: relative;
+        left: -55px;
+        padding-top: 30px;
     }
 
     .page4 {
-        top: 380%;
+        display: none;
         left: 0%;
         /*display: block;*/
         position: absolute;
@@ -306,6 +320,7 @@
     }
 
     .cc {
+        display: none;
         top: 990vh;
         white-space: nowrap;
     }

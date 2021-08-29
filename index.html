@@ -9,14 +9,14 @@
     <meta content="2021年度第16回沖縄高専祭公式ホームページ。">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Cache-Control" content="no-cache">
+
     <link rel="stylesheet" href="styles/top.css">
     <link rel="stylesheet" href="styles/responsive.css">
     <link rel="stylesheet" href="styles/button_anim.css">
     <link rel="stylesheet" href="styles/slide.css">
-<!--    <link rel="stylesheet" href="styles/slideshow_anim.css">-->
+    <link rel="stylesheet" href="styles/slideshow_anim.css">
     <link rel="stylesheet" href="styles/glitch_anim.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
-    <link rel="stylesheet" href="library/slider-pro-1.6.0/dist/css/slider-pro.min.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js"></script>
@@ -73,6 +73,17 @@
                 autoSlideSize: true,
                 aspectRatio: -1,
                 autoHeight: true,
+                breakpoints: {
+                    450: {
+                        width: 400,
+                    },
+                    375: {
+                        width: 390,
+                    },
+                    320: {
+                        width: 200,
+                    }
+                }
             });
         });
     </script>
@@ -471,32 +482,41 @@
 
 <section class="page3">
     <h1 class="glitch slideContsL slideConts" data-text="SPONSOR">SPONSOR</h1>
-    <div class="slide-show slideContsR slideConts">
-        <div id="example1" class="slider-pro">
-            <div class="sp-slides">
-                <div class="sp-slide">
-                    <img src="assets/img/spons1.jpg" data-lightbox="spons1" data-title=" " />
-                </div>
-                <div class="sp-slide">
-                    <img src="assets/img/spons2.jpg" data-lightbox="spons2" data-title=" "/>
-                </div>
-                <div class="sp-slide">
-                    <img src="assets/img/spons3.jpg" data-lightbox="spons3" data-title=" "/>
-                </div>
-                <div class="sp-slide">
-                    <img src="assets/img/spons4.jpg" data-lightbox="spons4" data-title=" "/>
-                </div>
-                <div class="sp-slide">
-                    <img src="assets/img/spons5.jpg" data-lightbox="spons5" data-title=" "/>
-                </div>
-                <div class="sp-slide">
-                    <img src="assets/img/spons6.jpg" data-lightbox="spons6" data-title=" "/>
-                </div>
-            </div>
-        </div>
+</section>
+<section class="sponsor">
+    <div class="wrap slide-paused" >
+        <ul class="slideshow none">
+            <li class="content"><a href="assets/img/spons1.jpg" data-lightbox="spons1" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons2.jpg" data-lightbox="spons2" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons3.jpg" data-lightbox="spons3" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons4.jpg" data-lightbox="spons4" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons5-detail.jpg" data-lightbox="spons5" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons6-detail0.jpg" data-lightbox="spons6" data-title=" "></a>
+                <a href="assets/img/spons6-detail1.jpg.jpg" data-lightbox="spons6" data-title=" "></a>
+            </li>
+        </ul>
+        <ul class="slideshow none">
+            <li class="content"><a href="assets/img/spons1.jpg" data-lightbox="spons1" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons2.jpg" data-lightbox="spons2" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons3.jpg" data-lightbox="spons3" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons4.jpg" data-lightbox="spons4" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons5-detail.jpg" data-lightbox="spons5" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons6-detail0.jpg" data-lightbox="spons6" data-title=" "></a>
+                <a href="assets/img/spons6-detail1.jpg.jpg" data-lightbox="spons6" data-title=" "></a>
+            </li>
+        </ul>
+        <ul class="slideshow none">
+            <li class="content"><a href="assets/img/spons1.jpg" data-lightbox="spons1" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons2.jpg" data-lightbox="spons2" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons3.jpg" data-lightbox="spons3" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons4.jpg" data-lightbox="spons4" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons5-detail.jpg" data-lightbox="spons5" data-title=" "></a></li>
+            <li class="content"><a href="assets/img/spons6-detail0.jpg" data-lightbox="spons6" data-title=" "></a>
+                <a href="assets/img/spons6-detail1.jpg.jpg" data-lightbox="spons6" data-title=" "></a>
+            </li>
+        </ul>
     </div>
 </section>
-
 
 
 <section class="page4">
