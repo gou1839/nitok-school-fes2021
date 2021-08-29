@@ -1,3 +1,121 @@
+@media screen and (max-width: 1280px) {
+    body, html {
+        overflow-x: hidden;
+    }
+
+    .top h1 {
+        color: #fff;
+        font-size: 90px;
+        letter-spacing: 4px;
+        font-family: hp;
+    }
+
+
+    .theme {
+        top: -20%;
+        left: 0%;
+        font-size: 500%;
+        opacity: 0.9;
+    }
+
+    .page1 {
+        top: 150%;
+        left: 30vh;
+    }
+
+    .content1 {
+        width: 120%;
+    }
+
+    .cybr-btn {
+        min-width: 250px !important;
+        top: 90% !important;
+        left: 45% !important;
+    }
+
+    .youtube {
+        width: 660px;
+        height: 384px;
+        top: 90%;
+        left: 15vw;
+    }
+
+    .cybr-btn2 {
+        top: 200% !important;
+    }
+
+    .microsoft {
+        width: 660px;
+        height: 384px;
+        top: 205%;
+    }
+
+    .page2 {
+        top: 350%;
+        left: 50%;
+    }
+
+
+    .page2 h1 {
+        font-size: 70px;
+    }
+
+    .new {
+        line-height: 10%;
+        padding-left: 18%;
+    }
+
+    .page2-sns {
+        top: 363%;
+        left: 38%;
+    }
+
+    .page3 {
+
+        transform: translate(-50%, -50%);
+        top: 500%;
+        left: 62%;
+        display: block;
+        position: absolute;
+    }
+
+    .content {
+        display: none;
+    }
+
+    .sponsor {
+        display: none;
+        /*transform: translate(-24%, -50%);*/
+        /*font-size: 70px;*/
+        /*font-family: Cyber;*/
+        /*padding-bottom: 0px;*/
+        /*color: white;*/
+        /*position: relative;*/
+        /*width: 400px;*/
+        /*margin: 0 auto;*/
+    }
+
+    li a{
+        display: none;
+    }
+
+    .page4 {
+        display: none;
+    }
+
+    .content2 {
+        display: none;
+    }
+
+    .content3 {
+        display: none;
+    }
+
+    .cc {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 959px) {
     /* 959px以下に適用されるCSS（タブレット用） */
 

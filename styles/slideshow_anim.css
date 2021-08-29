@@ -1,9 +1,43 @@
-
-
 /* スライドする要素 */
 .content {
     width: 300px;
     height: 300px;
+
+}
+
+
+/* スライドレールの枠 */
+.wrap {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 340px;
+    margin-bottom: 100px;
+}
+
+/* content4つをまとめたスライドブロック */
+.slideshow {
+    display: flex;
+    -webkit-animation: loop-slide 20s infinite linear 1s both;
+    animation: loop-slide 20s infinite linear 1s both;
+}
+
+@-webkit-keyframes loop-slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes loop-slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
 }
 
 .content:nth-child(1) {
@@ -60,39 +94,6 @@
     opacity: 0.9;
 }
 
-/* スライドレールの枠 */
-.wrap {
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    height: 340px;
-    margin-bottom: 100px;
-}
-
-/* content4つをまとめたスライドブロック */
-.slideshow {
-    display: flex;
-    -webkit-animation: loop-slide 20s infinite linear 1s both;
-    animation: loop-slide 20s infinite linear 1s both;
-}
-
-@-webkit-keyframes loop-slide {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-100%);
-    }
-}
-
-@keyframes loop-slide {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-100%);
-    }
-}
 
 /* ホバー時に動きを止める（パターン2・3）*/
 .slide-paused:hover .slideshow {

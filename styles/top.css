@@ -13,7 +13,6 @@ html {
     scroll-behavior: smooth;
     overflow-x: hidden;
     overflow-y : auto;
-
 }
 
 @font-face {
@@ -221,6 +220,8 @@ svg {
 }
 
 
+
+
 .youtube {
     position: absolute;
     width: 840px;
@@ -272,7 +273,7 @@ svg {
 .page2-sns {
     transform: translate(-50%, -50%);
     top: 340%;
-    left: 39.5%;
+    left: 42%;
     display: block;
     position: absolute;
 }
@@ -290,21 +291,19 @@ svg {
 }
 
 .sponsor {
-    transform: translate(-24%, -50%);
+    transform: translate(23%, -50%);
     font-size: 100px;
     font-family: Cyber;
-    padding-bottom: 0px;
     color: white;
-    position: relative;
-    width: 400px;
+    width: 1000px;
     margin: 0 auto;
 }
 
-li a{
-    display: block;
-    height: 100%;
-    width: 100%
+.slide-show {
+    transform: translate(-7%, 0%);
 }
+
+
 
 /***************/
 /* page4-hello */
