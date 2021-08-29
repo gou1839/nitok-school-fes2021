@@ -379,6 +379,127 @@
     }
 }
 
+@media screen and (max-width: 414px) {
+    /* 480px以下に適用されるCSS（スマホ用） */
+    body, html {
+        overflow-x: hidden;
+    }
+
+    .top h1 {
+        font-size: 50px;
+        line-height: 37px;
+        letter-spacing: 1px;
+
+    }
+
+    .theme {
+        top: 750px;
+        font-size: 170%;
+    }
+
+    .page1 {
+        left: 5vw;
+    }
+
+    .content1 {
+        width: 110%;
+        padding: 8% 4% 11% 9%; /* 枠と文字の空間 */
+    }
+
+    .about {
+        font-size: 3em;
+    }
+
+    .br {
+        display: block;
+    }
+
+    .slideContsR {
+        transform: translate(-800px, 0) !important;
+    }
+
+    .cybr-btn {
+        min-width: 65vw !important;
+        top: 40vh !important;
+        left: 0vw !important;
+    }
+
+    .youtube {
+        width: 350px;
+        top: 140%;
+        left: 0vw;
+    }
+
+    .cybr-btn2 {
+        display: none;
+    }
+
+    .microsoft {
+        display: none;
+    }
+
+    .page2 {
+        left: 50%;
+    }
+
+
+    .page2 h1 {
+        font-size: 50px;
+    }
+
+    .new {
+        padding-left: 7%;
+        line-height: 10%;
+    }
+
+    .page2-sns {
+        top: 265%;
+        left: -3vw;
+    }
+
+    .page3 {
+        top: 380vh;
+    }
+
+    .page3 h1 {
+        font-size: 50px;
+    }
+
+    .sponsor {
+        transform: translate(20%, -50%);
+        top: 420%;
+        position: absolute;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .page4 {
+        top: 470%;
+        left: 5%;
+        /*display: block;*/
+        position: absolute;
+        z-index: auto;
+    }
+
+    .content2 {
+        width: 100%;
+        padding: 8% 4% 11% 9%;
+    }
+
+    .content3 {
+        width: 120%;
+        height: 420%;
+        top: 90%;
+        left: 0%;
+    }
+
+    .cc {
+        top: 730vh;
+        left: 50%;
+        white-space: nowrap;
+    }
+}
+
 @media screen and (max-width: 375px) {
     body, html {
         overflow-x: hidden;
