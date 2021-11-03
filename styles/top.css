@@ -166,7 +166,7 @@ svg {
 /***************/
 .page1 {
     top: 150vh;
-    left: 20%;
+    left: 40%;
     /*display: block;*/
     position: absolute;
     max-width: 550px;
@@ -184,7 +184,24 @@ svg {
     background-color: #4D4D4D;
     position: relative;
     opacity: 0.9;
+    left: 10%;
 }
+
+.content1-1 {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    font-size: 1em;
+    left: 80%;
+    top: 80%;
+    padding:2% 4% 2% 10%;
+    color: white;
+    font-family: Noto Sans JP;
+    background-color: #1A1A1A;
+    opacity: 0.8;
+    z-index: 20;
+}
+
 
 .name {
     font-size: 1em;
