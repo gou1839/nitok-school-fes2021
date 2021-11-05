@@ -21,6 +21,7 @@
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="theme-color" content="#FCCA46" id="meta-theme-color"/>
     <link rel="stylesheet" href="_src/style.css"/>
+    <link rel="stylesheet" href="_src/loading.css"/>
     <!-- Facebook -->
     <meta property="fb:app_id" content="752847515127619"/>
 
@@ -61,6 +62,11 @@
     </header>
 </div>
 
-
+<script type="text/javascript">
+    window.onload = function() {
+        const spinner = document.getElementById('loading');
+        spinner.classList.add('loaded');
+    }
+</script>
 </body>
 </html>
