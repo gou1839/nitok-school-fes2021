@@ -13,7 +13,7 @@
     width: 100px;
     height: 100px;
     margin: 200px auto;
-    background-color: rgba(12, 12, 12, 0.12);
+    background-color: #FCCA46;
     border-radius: 100%;
     animation: sk-scaleout 1.0s infinite ease-in-out;
 }

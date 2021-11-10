@@ -9,7 +9,8 @@
     <meta name="viewport" content="width=device-width"/>
     <link rel="icon" href="./favicon.png" id="favicon"/>
     <meta name="theme-color" content="#FCCA46" id="meta-theme-color"/>
-    <link rel="stylesheet" href="./_src/style.css"/>
+    <link rel="stylesheet" href="/_src/style.css"/>
+    <link rel="stylesheet" href="/_src/imggrid.css">
     <link rel="stylesheet" href="./_src/loading.css"/>
     <link rel="stylesheet" href="./_src/lightbox.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -46,28 +47,139 @@
         </div>
     </header>
 
-</div>
-<div class="section-callout">
-    <div class="container">
-        <div class="callout-wrap js-callout-wrap">
-            <div class="callout js-callout">画像クリックで拡大/ポスター表示</div>
+    <div class="section-callout">
+        <div class="container">
+            <div class="callout-wrap js-callout-wrap">
+                <div class="callout js-callout">画像クリックで拡大/ポスター表示</div>
+            </div>
         </div>
     </div>
 </div>
 
-<main>
-    <section class="cards">
-        <article>
-            <img class="article-img" src="img/spons1.png" alt=" " />
-        </article>
-        <article>
-            <img class="article-img" src="img/spons2.png" alt=" " />
-        </article>
-    </section>
-</main>
+<div class="container">
+    <div class="gallery">
+<!--        <p><a href="images/image-1.jpg" rel="lightbox[sample-group]"><img src="images/thumb-1.jpg" alt="" width="100" /></a></p-->
+
+        <div class="gallery-item">
+            <p><a href="img/spons1.jpg" rel="lightbox">
+            <img class="gallery-image" src="img/spons1.jpg">
+            </a></p>
+        </div>
+
+        <div class="gallery-item">
+            <p><a href="img/spons2.jpg" rel="lightbox">
+                <img class="gallery-image" src="img/spons2.jpg">
+            </a></p>
+        </div>
+
+        <div class="gallery-item">
+            <p><a href="img/spons3.jpg" rel="lightbox">
+                <img class="gallery-image" src="img/spons3.jpg">
+            </a></p>
+        </div>
+
+        <div class="gallery-item">
+            <p><a href="img/spons4.jpg" rel="lightbox">
+                <img class="gallery-image" src="img/spons4.jpg">
+            </a></p>
+        </div>
+
+        <div class="gallery-item">
+            <p><a href="img/spons5.jpg" rel="lightbox">
+                <img class="gallery-image" src="img/spons5.jpg">
+            </a></p>
+        </div>
+
+        <div class="gallery-item">
+            <p><a href="img/spons6.jpg" rel="lightbox">
+                <img class="gallery-image" src="img/spons6.jpg">
+            </a></p>
+        </div>
+
+        <div class="gallery-item">
+            <p><a href="img/spons7-2.jpg" rel="lightbox">
+                <img class="gallery-image" src="img/spons7.jpg">
+            </a></p>
+        </div>
+
+        <div class="gallery-item">
+            <p><a href="img/spons8-1.jpg" rel="lightbox">
+                <img class="gallery-image" src="img/spons8.jpg">
+            </a></p>
+        </div>
+
+        <div class="gallery-item">
+            <p><a href="img/spons9-1.jpg" rel="lightbox">
+                <img class="gallery-image" src="img/spons9.jpg">
+            </a></p>
+        </div>
+
+        <div class="gallery-item">
+            <p><a href="img/spons10-1.jpg" rel="lightbox" data-lightbox="roadtrip">
+                <img class="gallery-image" src="img/spons10.jpg">
+            </a></p>
+            <a href="img/spons10-2.jpg" rel="lightbox" data-lightbox="roadtrip"></a>
+        </div>
+
+        <div class="gallery-item">
+            <p><a href="img/spons11-2.jpg" rel="lightbox">
+                <img class="gallery-image" src="img/spons11.jpg">
+            </a></p>
+        </div>
+
+        <div class="gallery-item">
+            <p><a href="img/spons12.jpg" rel="lightbox">
+                <img class="gallery-image" src="img/spons12.jpg">
+            </a></p>
+        </div>
+
+        <div class="gallery-item">
+            <p><a href="img/spons14.jpg" rel="lightbox">
+                <img class="gallery-image" src="img/spons14.jpg">
+            </a></p>
+        </div>
+
+        <div class="gallery-item">
+            <p><a href="img/spons15-1.jpg" rel="lightbox">
+                <img class="gallery-image" src="img/spons15.jpg">
+            </a></p>
+        </div>
+
+        <div class="gallery-item">
+            <p><a href="img/spons16.jpg" rel="lightbox">
+                <img class="gallery-image" src="img/spons16.jpg">
+            </a></p>
+        </div>
+
+        <div class="gallery-item">
+            <p><a href="img/spons17.jpg" rel="lightbox">
+                <img class="gallery-image" src="img/spons17.jpg">
+            </a></p>
+        </div>
+
+        <div class="gallery-item">
+            <p><a href="img/spons18.jpg" rel="lightbox">
+                <img class="gallery-image" src="img/spons18.jpg">
+            </a></p>
+        </div>
+
+        <div class="gallery-item">
+            <p><a href="img/spons19.jpg" rel="lightbox">
+                <img class="gallery-image" src="img/spons19.jpg">
+            </a></p>
+        </div>
+
+        <div class="gallery-item">
+            <p><a href="img/spons20.jpg" rel="lightbox">
+                <img class="gallery-image" src="img/spons20.jpg">
+            </a></p>
+        </div>
+    </div>
+
+</div>
 
 <script type="text/javascript">
-    window.onload = function() {
+    window.onload = function () {
         const spinner = document.getElementById('loading');
         spinner.classList.add('loaded');
     }
