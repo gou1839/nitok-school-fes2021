@@ -6,7 +6,7 @@ html {
 
 @font-face {
     font-family: hp;
-    src: url(harryp.TTF) format('truetype');
+    src: url(../assets/harryp.TTF) format('truetype');
 }
 
 ::-webkit-scrollbar {
@@ -638,6 +638,14 @@ body {
     .action-button {
         text-align: initial
     }
+}
+
+.youtube {
+    font-weight:400;
+    color: #dd4b39;
+}
+.youtube:hover {
+    color: #f86b5c;
 }
 
 .introduction {
